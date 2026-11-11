@@ -20,9 +20,8 @@ import os
 from datetime import datetime, timezone
 from typing import Any
 
-from classifier import classify_batch
-from confusion_matrix import compute_confusion_matrix, format_confusion_matrix_text
-from metrics import compute_metrics
+from .confusion_matrix import compute_confusion_matrix, format_confusion_matrix_text
+from .metrics import compute_metrics
 
 
 def repo_root_from_src() -> str:

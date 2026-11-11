@@ -29,15 +29,15 @@ from __future__ import annotations
 
 from typing import Any
 
-from client import LLMClientError, chat_completion, is_configured
-from prompt_builder import (
+from .client import LLMClientError, chat_completion, is_configured
+from .prompt_builder import (
     REPRESENTATION_STRUCTURED,
     REPRESENTATION_AMPLITUDE,
     build_few_shot_prompt,
     build_zero_shot_prompt,
     prompt_version,
 )
-from response_parser import ALLOWED_LABELS, parse_response
+from .response_parser import ALLOWED_LABELS, parse_response
 
 
 class ClassifierError(RuntimeError):

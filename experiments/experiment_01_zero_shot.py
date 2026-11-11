@@ -32,10 +32,8 @@ import sys
 here = os.path.dirname(os.path.abspath(__file__))
 repo_root = os.path.dirname(here)
 src_dir = os.path.join(repo_root, "src")
-for subdir in ("", "llm", "evaluation"):
-    p = os.path.join(src_dir, subdir)
-    if p not in sys.path:
-        sys.path.insert(0, p)
+if src_dir not in sys.path:
+    sys.path.insert(0, src_dir)
 
 from datasets.simwisense.experiment_manifest import (  # noqa: E402
     load_experiment_manifest,
