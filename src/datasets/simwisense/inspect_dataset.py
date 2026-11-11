@@ -54,7 +54,8 @@ BATCH_SUFFIX = "_batch"
 def repo_root_from_src() -> str:
     """Return the repo root assuming this file lives in <root>/src/dataset/."""
     here = os.path.dirname(os.path.abspath(__file__))
-    src_dir = os.path.dirname(here)
+    datasets_dir = os.path.dirname(here)
+    src_dir = os.path.dirname(datasets_dir)
     return os.path.dirname(src_dir)
 
 

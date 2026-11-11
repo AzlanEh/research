@@ -57,7 +57,8 @@ SPLIT_CSV_DIR = {
 
 def repo_root_from_src() -> str:
     here = os.path.dirname(os.path.abspath(__file__))
-    src_dir = os.path.dirname(here)
+    datasets_dir = os.path.dirname(here)
+    src_dir = os.path.dirname(datasets_dir)
     return os.path.dirname(src_dir)
 
 

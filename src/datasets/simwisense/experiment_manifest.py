@@ -21,22 +21,19 @@ from __future__ import annotations
 import json
 import os
 import random
+from pathlib import Path
 from collections import defaultdict
 from datetime import datetime, timezone
 from typing import Any
 
-DEFAULT_MANIFEST = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-    "data",
-    "processed",
-    "manifest.json",
+REPO_ROOT = Path(__file__).resolve().parents[3]
+
+DEFAULT_MANIFEST = str(
+    REPO_ROOT / "data" / "processed" / "manifest.json"
 )
 
-DEFAULT_OUT = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-    "data",
-    "processed",
-    "experiment_manifest.json",
+DEFAULT_OUT = str(
+    REPO_ROOT / "data" / "processed" / "experiment_manifest.json"
 )
 
 
