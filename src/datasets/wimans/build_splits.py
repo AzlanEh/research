@@ -20,8 +20,8 @@ distribution summaries, and leakage checks live in split_report.json.
 The manifest itself is never modified.
 
 Run from anywhere:
-    python src/build_wimans_splits.py
-    python src/build_wimans_splits.py --seed 42 --train-fraction 0.8
+    python src/datasets/wimans/build_splits.py
+    python src/datasets/wimans/build_splits.py --seed 42 --train-fraction 0.8
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ import statistics
 from collections import Counter, defaultdict
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_MANIFEST = REPO_ROOT / "data" / "processed" / "wimans" / "manifest.jsonl"
 DEFAULT_OUT_DIR = REPO_ROOT / "data" / "processed" / "wimans" / "splits"
 DEFAULT_SEED = 42

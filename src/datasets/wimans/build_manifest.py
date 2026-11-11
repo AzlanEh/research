@@ -10,8 +10,9 @@ DATASET_ROOT = Path("/mnt/external_disk/gaurav_project/wifi_csi")
 ANNOTATION = DATASET_ROOT.parent / "annotation.csv"
 AMP_DIR = DATASET_ROOT / "amp"
 
-OUTPUT_DIR = Path("data/metadata/wimans")
-PROCESSED_DIR = Path("data/processed/wimans")
+REPO_ROOT = Path(__file__).resolve().parents[3]
+OUTPUT_DIR = REPO_ROOT / "data" / "metadata" / "wimans"
+PROCESSED_DIR = REPO_ROOT / "data" / "processed" / "wimans"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
