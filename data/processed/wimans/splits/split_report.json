@@ -1,0 +1,560 @@
+{
+  "dataset": "WiMANS",
+  "manifest": "/home/iotlabnew/workspace/wifi-extend/data/processed/wimans/manifest.jsonl",
+  "manifest_sha256": "b170fbb01ebf1838833983dfceacc7b9f9d990eee141a9c6715fb69e81f4a0ee",
+  "seed": 42,
+  "train_fraction": 0.8,
+  "deterministic": true,
+  "caveats": {
+    "group_definition": "group_id is parsed from the sample label act_<group_id>_<sample_index>. Each group has 99 samples and is homogeneous in environment, wifi_band, and number_of_users.",
+    "group_disjoint_is_not_person_disjoint": "The six volunteer identities recur across groups. Protocol B tests unseen collection groups, not unseen people.",
+    "zero_user_samples": "Samples with number_of_users == 0 have no activity labels. They remain in both split files for the no-human baseline and must be filtered out of the 9-class activity benchmark. Filtering by user count preserves group disjointness because user count is constant within a group."
+  },
+  "protocols": {
+    "paper_random_80_20": {
+      "description": "Seeded random 80/20 split at the sample level, matching the WiMANS paper's recommended random train/test split. Groups are not held out; this is a paper-comparison benchmark, not a group-generalization estimate.",
+      "split_unit": "sample",
+      "file": "paper_random_80_20.json",
+      "train": {
+        "samples": 9029,
+        "groups": 114,
+        "environment": {
+          "classroom": 3037,
+          "empty_room": 3005,
+          "meeting_room": 2987
+        },
+        "wifi_band": {
+          "2.4": 4499,
+          "5": 4530
+        },
+        "number_of_users": {
+          "0": 493,
+          "1": 2882,
+          "2": 1437,
+          "3": 1391,
+          "4": 1392,
+          "5": 1434
+        },
+        "activity_slots": {
+          "jump": 2468,
+          "lie_down": 2507,
+          "nothing": 2520,
+          "pick_up": 2559,
+          "rotation": 2518,
+          "sit_down": 2503,
+          "stand_up": 2562,
+          "walk": 2504,
+          "wave": 2526
+        },
+        "sequence_length": {
+          "min": 2305,
+          "median": 2910,
+          "mean": 2897.26,
+          "max": 2994
+        }
+      },
+      "test": {
+        "samples": 2257,
+        "groups": 114,
+        "environment": {
+          "classroom": 725,
+          "empty_room": 757,
+          "meeting_room": 775
+        },
+        "wifi_band": {
+          "2.4": 1144,
+          "5": 1113
+        },
+        "number_of_users": {
+          "0": 101,
+          "1": 682,
+          "2": 345,
+          "3": 391,
+          "4": 390,
+          "5": 348
+        },
+        "activity_slots": {
+          "jump": 700,
+          "lie_down": 661,
+          "nothing": 648,
+          "pick_up": 609,
+          "rotation": 650,
+          "sit_down": 665,
+          "stand_up": 606,
+          "walk": 664,
+          "wave": 642
+        },
+        "sequence_length": {
+          "min": 2348,
+          "median": 2911,
+          "mean": 2898.73,
+          "max": 2997
+        }
+      },
+      "checks": {
+        "train_samples": 9029,
+        "test_samples": 2257,
+        "train_groups": 114,
+        "test_groups": 114,
+        "group_overlap": 114,
+        "test_samples_in_train_groups": 2257,
+        "groups_in_both": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206
+        ],
+        "sample_disjoint": true,
+        "sample_union_complete": true,
+        "train_has_duplicates": false,
+        "test_has_duplicates": false
+      }
+    },
+    "group_disjoint_80_20": {
+      "description": "Seeded 80/20 split at the group level: all samples from a group stay on one side. Groups are stratified by (environment, wifi_band) and balanced on user count. This is the primary evaluation split.",
+      "split_unit": "group",
+      "file": "group_disjoint_80_20.json",
+      "train": {
+        "samples": 9009,
+        "groups": 91,
+        "environment": {
+          "classroom": 3069,
+          "empty_room": 2970,
+          "meeting_room": 2970
+        },
+        "wifi_band": {
+          "2.4": 4554,
+          "5": 4455
+        },
+        "number_of_users": {
+          "0": 495,
+          "1": 2871,
+          "2": 1386,
+          "3": 1386,
+          "4": 1386,
+          "5": 1485
+        },
+        "activity_slots": {
+          "jump": 2530,
+          "lie_down": 2530,
+          "nothing": 2530,
+          "pick_up": 2530,
+          "rotation": 2530,
+          "sit_down": 2530,
+          "stand_up": 2530,
+          "walk": 2530,
+          "wave": 2530
+        },
+        "sequence_length": {
+          "min": 2305,
+          "median": 2913,
+          "mean": 2901.21,
+          "max": 2997
+        }
+      },
+      "test": {
+        "samples": 2277,
+        "groups": 23,
+        "environment": {
+          "classroom": 693,
+          "empty_room": 792,
+          "meeting_room": 792
+        },
+        "wifi_band": {
+          "2.4": 1089,
+          "5": 1188
+        },
+        "number_of_users": {
+          "0": 99,
+          "1": 693,
+          "2": 396,
+          "3": 396,
+          "4": 396,
+          "5": 297
+        },
+        "activity_slots": {
+          "jump": 638,
+          "lie_down": 638,
+          "nothing": 638,
+          "pick_up": 638,
+          "rotation": 638,
+          "sit_down": 638,
+          "stand_up": 638,
+          "walk": 638,
+          "wave": 638
+        },
+        "sequence_length": {
+          "min": 2337,
+          "median": 2898,
+          "mean": 2883.1,
+          "max": 2994
+        }
+      },
+      "train_groups": {
+        "groups": 91,
+        "environment": {
+          "classroom": 31,
+          "empty_room": 30,
+          "meeting_room": 30
+        },
+        "wifi_band": {
+          "2.4": 46,
+          "5": 45
+        },
+        "number_of_users": {
+          "0": 5,
+          "1": 29,
+          "2": 14,
+          "3": 14,
+          "4": 14,
+          "5": 15
+        }
+      },
+      "test_groups": {
+        "groups": 23,
+        "environment": {
+          "classroom": 7,
+          "empty_room": 8,
+          "meeting_room": 8
+        },
+        "wifi_band": {
+          "2.4": 11,
+          "5": 12
+        },
+        "number_of_users": {
+          "0": 1,
+          "1": 7,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 3
+        }
+      },
+      "checks": {
+        "train_samples": 9009,
+        "test_samples": 2277,
+        "train_groups": 91,
+        "test_groups": 23,
+        "group_overlap": 0,
+        "test_samples_in_train_groups": 0,
+        "groups_in_both": [],
+        "sample_disjoint": true,
+        "sample_union_complete": true,
+        "train_has_duplicates": false,
+        "test_has_duplicates": false,
+        "train_groups_list": [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          36,
+          37,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          61,
+          63,
+          64,
+          65,
+          67,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          78,
+          80,
+          81,
+          82,
+          83,
+          84,
+          86,
+          87,
+          89,
+          90,
+          91,
+          93,
+          94,
+          95,
+          96,
+          97,
+          99,
+          100,
+          102,
+          103,
+          105,
+          106,
+          107,
+          108,
+          201,
+          202,
+          204,
+          205,
+          206
+        ],
+        "test_groups_list": [
+          1,
+          3,
+          17,
+          24,
+          30,
+          31,
+          35,
+          38,
+          45,
+          46,
+          60,
+          62,
+          66,
+          68,
+          77,
+          79,
+          85,
+          88,
+          92,
+          98,
+          101,
+          104,
+          203
+        ],
+        "cell_target": {
+          "classroom|2.4": 3,
+          "classroom|5": 4,
+          "empty_room|2.4": 4,
+          "empty_room|5": 4,
+          "meeting_room|2.4": 4,
+          "meeting_room|5": 4
+        },
+        "user_target": {
+          "0": 1,
+          "1": 7,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 3
+        },
+        "cell_user_allocation": {
+          "classroom|2.4": {
+            "0": 0,
+            "1": 2,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "classroom|5": {
+            "0": 0,
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 1,
+            "5": 1
+          },
+          "empty_room|2.4": {
+            "0": 0,
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 1
+          },
+          "empty_room|5": {
+            "0": 0,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 0
+          },
+          "meeting_room|2.4": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 0,
+            "5": 0
+          },
+          "meeting_room|5": {
+            "0": 0,
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 0
+          }
+        }
+      }
+    }
+  },
+  "output_sha256": {
+    "paper_random_80_20.json": "643e6844f734b190adfc810d95fb61ae78c1f66cdfe9c7fcb7488ee320665818",
+    "group_disjoint_80_20.json": "82c7f17b0df897a56c7fe04df9fc1d25b61561dc42876a74706189df4d715c14"
+  },
+  "leakage_summary": {
+    "paper_random_80_20": {
+      "group_overlap": 114,
+      "test_samples_in_train_groups": 2257,
+      "status": "expected_group_leakage",
+      "note": "Sample-level random splitting puts every group on both sides. Use for paper comparison only."
+    },
+    "group_disjoint_80_20": {
+      "group_overlap": 0,
+      "test_samples_in_train_groups": 0,
+      "status": "clean",
+      "note": "No group and no sample appears on both sides. This does not imply person-disjoint: the six identities recur across groups."
+    }
+  }
+}

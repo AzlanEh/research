@@ -1,0 +1,13 @@
+# Project dependencies for wifi-extend
+# Install with:  .venv/bin/pip install -r requirements.txt
+
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+python-dotenv==1.2.4
+
+# Add pinned packages here, e.g.:
+#   pandas==2.3.3
+#
+# For PyTorch + CUDA 12.4 (matches the RTX A6000 driver 550):
+#   .venv/bin/pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124

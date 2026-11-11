@@ -1,0 +1,93 @@
+{
+  "experiment_name": "experiment_01_zero_shot_structured_features",
+  "generated_at": "2026-11-10T10:13:53.501822+00:00",
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "metrics": {
+    "total_predictions": 150,
+    "evaluable_predictions": 61,
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "unknown_rate": 0.0333,
+    "unknown_count": 5,
+    "parse_error_rate": 0.56,
+    "parse_error_count": 84,
+    "parse_statuses": {
+      "ok": 66,
+      "client_error": 84
+    },
+    "per_class": {
+      "A": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 29,
+        "tp": 29,
+        "fp": 0,
+        "fn": 0
+      },
+      "B": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 17,
+        "tp": 17,
+        "fp": 0,
+        "fn": 0
+      },
+      "C": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15,
+        "tp": 15,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "confusion_matrix": {
+    "matrix": {
+      "A": {
+        "A": 29,
+        "B": 0,
+        "C": 0
+      },
+      "B": {
+        "A": 0,
+        "B": 17,
+        "C": 0
+      },
+      "C": {
+        "A": 0,
+        "B": 0,
+        "C": 15
+      }
+    },
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "total": 150,
+    "evaluable": 61,
+    "unknown_count": 5,
+    "parse_error_count": 84
+  },
+  "artifacts": {
+    "predictions": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_structured_features/predictions.jsonl",
+    "prompts": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_structured_features/prompts.json",
+    "metrics": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_structured_features/metrics.json",
+    "confusion_matrix": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_structured_features/confusion_matrix.txt"
+  }
+}

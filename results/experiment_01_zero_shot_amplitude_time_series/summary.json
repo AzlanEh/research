@@ -1,0 +1,93 @@
+{
+  "experiment_name": "experiment_01_zero_shot_amplitude_time_series",
+  "generated_at": "2026-11-10T10:36:48.048140+00:00",
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "metrics": {
+    "total_predictions": 150,
+    "evaluable_predictions": 84,
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "unknown_rate": 0.0133,
+    "unknown_count": 2,
+    "parse_error_rate": 0.4267,
+    "parse_error_count": 64,
+    "parse_statuses": {
+      "ok": 86,
+      "client_error": 64
+    },
+    "per_class": {
+      "A": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 34,
+        "tp": 34,
+        "fp": 0,
+        "fn": 0
+      },
+      "B": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 17,
+        "tp": 17,
+        "fp": 0,
+        "fn": 0
+      },
+      "C": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 33,
+        "tp": 33,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "confusion_matrix": {
+    "matrix": {
+      "A": {
+        "A": 34,
+        "B": 0,
+        "C": 0
+      },
+      "B": {
+        "A": 0,
+        "B": 17,
+        "C": 0
+      },
+      "C": {
+        "A": 0,
+        "B": 0,
+        "C": 33
+      }
+    },
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "total": 150,
+    "evaluable": 84,
+    "unknown_count": 2,
+    "parse_error_count": 64
+  },
+  "artifacts": {
+    "predictions": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_amplitude_time_series/predictions.jsonl",
+    "prompts": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_amplitude_time_series/prompts.json",
+    "metrics": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_amplitude_time_series/metrics.json",
+    "confusion_matrix": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_amplitude_time_series/confusion_matrix.txt"
+  }
+}

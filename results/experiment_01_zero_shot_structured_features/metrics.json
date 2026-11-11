@@ -1,0 +1,50 @@
+{
+  "total_predictions": 150,
+  "evaluable_predictions": 61,
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "unknown_rate": 0.0333,
+  "unknown_count": 5,
+  "parse_error_rate": 0.56,
+  "parse_error_count": 84,
+  "parse_statuses": {
+    "ok": 66,
+    "client_error": 84
+  },
+  "per_class": {
+    "A": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 29,
+      "tp": 29,
+      "fp": 0,
+      "fn": 0
+    },
+    "B": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 17,
+      "tp": 17,
+      "fp": 0,
+      "fn": 0
+    },
+    "C": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 15,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ]
+}

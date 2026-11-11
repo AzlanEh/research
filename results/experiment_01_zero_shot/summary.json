@@ -1,0 +1,92 @@
+{
+  "experiment_name": "experiment_01_zero_shot",
+  "generated_at": "2026-11-10T09:52:00.993349+00:00",
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "metrics": {
+    "total_predictions": 6,
+    "evaluable_predictions": 6,
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "unknown_rate": 0.0,
+    "unknown_count": 0,
+    "parse_error_rate": 0.0,
+    "parse_error_count": 0,
+    "parse_statuses": {
+      "ok": 6
+    },
+    "per_class": {
+      "A": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "B": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "C": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "confusion_matrix": {
+    "matrix": {
+      "A": {
+        "A": 2,
+        "B": 0,
+        "C": 0
+      },
+      "B": {
+        "A": 0,
+        "B": 2,
+        "C": 0
+      },
+      "C": {
+        "A": 0,
+        "B": 0,
+        "C": 2
+      }
+    },
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "total": 6,
+    "evaluable": 6,
+    "unknown_count": 0,
+    "parse_error_count": 0
+  },
+  "artifacts": {
+    "predictions": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot/predictions.jsonl",
+    "prompts": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot/prompts.json",
+    "metrics": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot/metrics.json",
+    "confusion_matrix": "/home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot/confusion_matrix.txt"
+  }
+}

@@ -1,0 +1,7 @@
+                     A        B        C
+Predicted \ Actual
+Actual    A :       34        0        0
+Actual    B :        0       17        0
+Actual    C :        0        0       33
+
+Total: 150  Evaluable: 84  UNKNOWN: 2  Parse errors: 64

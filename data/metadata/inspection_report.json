@@ -1,0 +1,151 @@
+{
+  "dataset_root": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1",
+  "monitor": "m1",
+  "activities": [
+    "A",
+    "B",
+    "C"
+  ],
+  "splits": [
+    "Train",
+    "Val",
+    "Test"
+  ],
+  "inspected_at": "2026-11-10T08:09:30.813852+00:00",
+  "structure": {
+    "A": {
+      "activity": "A",
+      "folder_exists": true,
+      "splits": {
+        "Train": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Train/A_batch",
+          "dir_exists": true,
+          "batch_count": 4823,
+          "files": [
+            "batch_0.mat",
+            "batch_1.mat",
+            "batch_10.mat",
+            "batch_100.mat",
+            "batch_1000.mat"
+          ],
+          "sample_shape": [
+            50,
+            242
+          ],
+          "sample_dtype": "complex128",
+          "sample_is_complex": true
+        },
+        "Val": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Val/A_batch",
+          "dir_exists": false,
+          "batch_count": 0,
+          "files": []
+        },
+        "Test": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Test/A_batch",
+          "dir_exists": true,
+          "batch_count": 1647,
+          "files": [
+            "batch_0.mat",
+            "batch_1.mat",
+            "batch_10.mat",
+            "batch_100.mat",
+            "batch_1000.mat"
+          ]
+        }
+      }
+    },
+    "B": {
+      "activity": "B",
+      "folder_exists": true,
+      "splits": {
+        "Train": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Train/B_batch",
+          "dir_exists": true,
+          "batch_count": 4552,
+          "files": [
+            "batch_0.mat",
+            "batch_1.mat",
+            "batch_10.mat",
+            "batch_100.mat",
+            "batch_1000.mat"
+          ],
+          "sample_shape": [
+            50,
+            242
+          ],
+          "sample_dtype": "complex128",
+          "sample_is_complex": true
+        },
+        "Val": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Val/B_batch",
+          "dir_exists": false,
+          "batch_count": 0,
+          "files": []
+        },
+        "Test": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Test/B_batch",
+          "dir_exists": true,
+          "batch_count": 1554,
+          "files": [
+            "batch_0.mat",
+            "batch_1.mat",
+            "batch_10.mat",
+            "batch_100.mat",
+            "batch_1000.mat"
+          ]
+        }
+      }
+    },
+    "C": {
+      "activity": "C",
+      "folder_exists": true,
+      "splits": {
+        "Train": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Train/C_batch",
+          "dir_exists": true,
+          "batch_count": 4262,
+          "files": [
+            "batch_0.mat",
+            "batch_1.mat",
+            "batch_10.mat",
+            "batch_100.mat",
+            "batch_1000.mat"
+          ],
+          "sample_shape": [
+            50,
+            242
+          ],
+          "sample_dtype": "complex128",
+          "sample_is_complex": true
+        },
+        "Val": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Val/C_batch",
+          "dir_exists": false,
+          "batch_count": 0,
+          "files": []
+        },
+        "Test": {
+          "batch_dir": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Test/C_batch",
+          "dir_exists": true,
+          "batch_count": 1455,
+          "files": [
+            "batch_0.mat",
+            "batch_1.mat",
+            "batch_10.mat",
+            "batch_100.mat",
+            "batch_1000.mat"
+          ]
+        }
+      }
+    }
+  },
+  "sample_window": {},
+  "totals": {
+    "train": 13637,
+    "val": 0,
+    "test": 4656,
+    "grand_total": 18293
+  },
+  "root_exists": true
+}

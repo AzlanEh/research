@@ -1,0 +1,155 @@
+{
+  "dataset_root": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1",
+  "activities": [
+    "A",
+    "B",
+    "C"
+  ],
+  "splits": [
+    "Train",
+    "Val",
+    "Test"
+  ],
+  "verified_at": "2026-11-10T08:11:12.841091+00:00",
+  "per_split": {
+    "Train": {
+      "csv_path": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Train/train_set.csv",
+      "csv_exists": true,
+      "row_count": 46303,
+      "missing_files": [],
+      "label_mismatches": [],
+      "unique_labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ]
+    },
+    "Val": {
+      "csv_path": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Train/val_set.csv",
+      "csv_exists": true,
+      "row_count": 11659,
+      "missing_files": [],
+      "label_mismatches": [],
+      "unique_labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ]
+    },
+    "Test": {
+      "csv_path": "/mnt/external_disk/SiMWiSense/SiMWiSense/Data/fine_grained/Classroom/80MHz/3mo/m1/Slots/Test/test_set.csv",
+      "csv_exists": true,
+      "row_count": 19749,
+      "missing_files": [],
+      "label_mismatches": [],
+      "unique_labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ]
+    }
+  },
+  "summary": {
+    "total_csv_rows": 77711,
+    "rows_missing_file": 0,
+    "label_mismatch": 0,
+    "unique_labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T"
+    ],
+    "expected_labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "all_files_exist": true,
+    "all_labels_match": true,
+    "label_set_matches_expected": false
+  },
+  "per_activity": {
+    "A": {
+      "Train": 3859,
+      "Val": 964,
+      "Test": 1647
+    },
+    "B": {
+      "Train": 3640,
+      "Val": 912,
+      "Test": 1554
+    },
+    "C": {
+      "Train": 3358,
+      "Val": 904,
+      "Test": 1455
+    }
+  }
+}

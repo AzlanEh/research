@@ -1,0 +1,93 @@
+{
+  "experiment_name": "experiment_02_few_shot_structured_features",
+  "generated_at": "2026-11-10T11:13:00.169690+00:00",
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "metrics": {
+    "total_predictions": 150,
+    "evaluable_predictions": 12,
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "unknown_rate": 0.0,
+    "unknown_count": 0,
+    "parse_error_rate": 0.92,
+    "parse_error_count": 138,
+    "parse_statuses": {
+      "ok": 12,
+      "client_error": 138
+    },
+    "per_class": {
+      "A": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      "B": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      "C": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "confusion_matrix": {
+    "matrix": {
+      "A": {
+        "A": 4,
+        "B": 0,
+        "C": 0
+      },
+      "B": {
+        "A": 0,
+        "B": 4,
+        "C": 0
+      },
+      "C": {
+        "A": 0,
+        "B": 0,
+        "C": 4
+      }
+    },
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "total": 150,
+    "evaluable": 12,
+    "unknown_count": 0,
+    "parse_error_count": 138
+  },
+  "artifacts": {
+    "predictions": "/home/iotlabnew/workspace/wifi-extend/results/experiment_02_few_shot_structured_features/predictions.jsonl",
+    "prompts": "/home/iotlabnew/workspace/wifi-extend/results/experiment_02_few_shot_structured_features/prompts.json",
+    "metrics": "/home/iotlabnew/workspace/wifi-extend/results/experiment_02_few_shot_structured_features/metrics.json",
+    "confusion_matrix": "/home/iotlabnew/workspace/wifi-extend/results/experiment_02_few_shot_structured_features/confusion_matrix.txt"
+  }
+}

@@ -1,0 +1,34 @@
+# Python environment (local, isolated)
+.venv/
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & data
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local compiled executable (rebuild from C source)
+src/csi_reference
+
+# Generated decoder sample
+src/csi_test_100.npy

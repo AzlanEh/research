@@ -1,0 +1,42 @@
+{
+  "dataset": "WiMANS",
+  "dataset_root": "/mnt/external_disk/gaurav_project/wifi_csi",
+  "annotation_file": "/mnt/external_disk/gaurav_project/annotation.csv",
+  "total_annotation_rows": 11286,
+  "indexed_samples": 11286,
+  "errors": [],
+  "groups": 114,
+  "environment_distribution": {
+    "classroom": 3762,
+    "meeting_room": 3762,
+    "empty_room": 3762
+  },
+  "wifi_band_distribution": {
+    "2.4": 5643,
+    "5": 5643
+  },
+  "user_count_distribution": {
+    "1": 3564,
+    "2": 1782,
+    "3": 1782,
+    "4": 1782,
+    "5": 1782,
+    "0": 594
+  },
+  "activity_distribution": {
+    "nothing": 3168,
+    "walk": 3168,
+    "rotation": 3168,
+    "jump": 3168,
+    "wave": 3168,
+    "lie_down": 3168,
+    "pick_up": 3168,
+    "sit_down": 3168,
+    "stand_up": 3168
+  },
+  "sequence_length": {
+    "min": 2305,
+    "max": 2997,
+    "mean": 2897.56
+  }
+}

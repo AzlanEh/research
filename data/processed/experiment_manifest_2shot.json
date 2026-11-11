@@ -1,0 +1,2358 @@
+{
+  "source_manifest": "/home/iotlabnew/workspace/wifi-extend/data/processed/manifest.json",
+  "labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "seed": 42,
+  "few_shot_per_class": 2,
+  "eval_per_class": 50,
+  "leakage_status": "not_fully_verified",
+  "leakage_note": "Split-relative filename matches exist between Train and Test (see build_manifest_report.json). Few-shot examples come from Train, evaluation from Test. CSI-content differs for matched filenames, but source-row overlap is unverified.",
+  "few_shot": [
+    {
+      "filename": "Slots/Train/A_batch/batch_4501.mat",
+      "label": "A",
+      "split": "Train",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_4501.mat"
+    },
+    {
+      "filename": "Slots/Train/A_batch/batch_450.mat",
+      "label": "A",
+      "split": "Train",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_450.mat"
+    },
+    {
+      "filename": "Slots/Train/B_batch/batch_920.mat",
+      "label": "B",
+      "split": "Train",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_920.mat"
+    },
+    {
+      "filename": "Slots/Train/B_batch/batch_4213.mat",
+      "label": "B",
+      "split": "Train",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_4213.mat"
+    },
+    {
+      "filename": "Slots/Train/C_batch/batch_58.mat",
+      "label": "C",
+      "split": "Train",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_58.mat"
+    },
+    {
+      "filename": "Slots/Train/C_batch/batch_3215.mat",
+      "label": "C",
+      "split": "Train",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_3215.mat"
+    }
+  ],
+  "evaluation": [
+    {
+      "filename": "Slots/Test/A_batch/batch_714.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_714.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_284.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_284.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_594.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_594.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_130.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_130.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_387.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_387.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_926.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_926.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1627.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1627.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_31.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_31.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_525.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_525.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1077.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1077.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_751.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_751.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_937.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_937.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_758.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_758.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_137.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_137.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1130.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1130.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1287.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1287.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_944.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_944.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_994.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_994.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_136.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_136.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1323.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1323.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_693.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_693.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1337.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1337.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_947.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_947.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1596.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1596.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1051.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1051.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1531.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1531.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1327.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1327.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_964.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_964.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_662.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_662.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_656.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_656.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_907.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_907.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_587.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_587.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1330.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1330.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1477.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1477.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_426.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_426.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1182.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1182.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1523.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1523.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1131.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1131.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1599.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1599.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1435.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1435.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_896.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_896.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_214.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_214.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1248.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1248.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_150.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_150.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1516.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1516.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_860.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_860.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_673.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_673.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_326.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_326.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_958.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_958.mat"
+    },
+    {
+      "filename": "Slots/Test/A_batch/batch_1155.mat",
+      "label": "A",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "A_batch/batch_1155.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_285.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_285.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1155.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1155.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_688.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_688.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_76.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_76.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_536.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_536.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_543.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_543.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_353.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_353.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1169.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1169.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1131.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1131.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1398.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1398.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_946.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_946.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_779.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_779.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_318.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_318.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_172.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_172.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_823.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_823.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_46.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_46.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1374.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1374.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1383.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1383.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_895.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_895.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_683.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_683.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_144.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_144.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_600.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_600.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_385.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_385.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_748.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_748.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_104.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_104.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_844.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_844.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_487.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_487.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1434.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1434.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1095.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1095.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1338.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1338.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_69.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_69.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1060.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1060.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_119.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_119.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1370.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1370.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_491.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_491.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_521.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_521.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_41.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_41.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_196.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_196.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1322.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1322.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_655.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_655.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_763.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_763.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_113.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_113.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_19.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_19.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1105.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1105.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_562.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_562.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_283.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_283.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_798.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_798.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_1418.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_1418.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_636.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_636.mat"
+    },
+    {
+      "filename": "Slots/Test/B_batch/batch_754.mat",
+      "label": "B",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "B_batch/batch_754.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_43.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_43.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_924.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_924.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_506.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_506.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1385.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1385.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_254.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_254.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_639.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_639.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1210.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1210.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_687.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_687.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1416.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1416.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_212.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_212.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_851.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_851.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_881.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_881.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_48.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_48.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_352.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_352.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_423.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_423.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1262.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1262.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_608.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_608.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1260.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1260.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_317.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_317.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1180.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1180.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_716.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_716.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_117.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_117.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_844.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_844.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1006.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1006.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1278.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1278.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_925.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_925.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1437.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1437.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1371.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1371.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_841.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_841.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_788.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_788.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_337.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_337.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_616.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_616.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_3.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_3.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1174.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1174.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_73.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_73.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1115.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1115.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_771.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_771.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_728.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_728.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_691.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_691.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_532.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_532.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_141.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_141.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_749.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_749.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_344.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_344.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1342.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1342.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1140.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1140.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1190.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1190.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_397.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_397.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_28.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_28.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_107.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_107.mat"
+    },
+    {
+      "filename": "Slots/Test/C_batch/batch_1040.mat",
+      "label": "C",
+      "split": "Test",
+      "monitor": "m1",
+      "dataset": "fine_grained",
+      "environment": "Classroom/80MHz/3mo",
+      "shape": [
+        50,
+        242
+      ],
+      "dtype": "complex128",
+      "is_complex": true,
+      "split_relative_path": "C_batch/batch_1040.mat"
+    }
+  ],
+  "generated_at": "2026-11-10T11:30:00.719911+00:00"
+}

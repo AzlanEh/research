@@ -1,0 +1,329 @@
+python ../experiments/experiment_01_zero_shot.py --limit 50 --representation structured_features   # E1
+-bash: cd: src: No such file or directory
+[experiment_01_zero_shot] Evaluation entries: 150
+[experiment_01_zero_shot] Labels: ('A', 'B', 'C')
+[experiment_01_zero_shot] Representation: structured_features
+[experiment_01_zero_shot] Leakage status: not_fully_verified
+  [1/150] Extracting features: Slots/Test/A_batch/batch_714.mat
+  [2/150] Extracting features: Slots/Test/A_batch/batch_284.mat
+  [3/150] Extracting features: Slots/Test/A_batch/batch_594.mat
+  [4/150] Extracting features: Slots/Test/A_batch/batch_130.mat
+  [5/150] Extracting features: Slots/Test/A_batch/batch_387.mat
+  [6/150] Extracting features: Slots/Test/A_batch/batch_926.mat
+  [7/150] Extracting features: Slots/Test/A_batch/batch_1627.mat
+  [8/150] Extracting features: Slots/Test/A_batch/batch_31.mat
+  [9/150] Extracting features: Slots/Test/A_batch/batch_525.mat
+  [10/150] Extracting features: Slots/Test/A_batch/batch_1077.mat
+  [11/150] Extracting features: Slots/Test/A_batch/batch_751.mat
+  [12/150] Extracting features: Slots/Test/A_batch/batch_937.mat
+  [13/150] Extracting features: Slots/Test/A_batch/batch_758.mat
+  [14/150] Extracting features: Slots/Test/A_batch/batch_137.mat
+  [15/150] Extracting features: Slots/Test/A_batch/batch_1130.mat
+  [16/150] Extracting features: Slots/Test/A_batch/batch_1287.mat
+  [17/150] Extracting features: Slots/Test/A_batch/batch_944.mat
+  [18/150] Extracting features: Slots/Test/A_batch/batch_994.mat
+  [19/150] Extracting features: Slots/Test/A_batch/batch_136.mat
+  [20/150] Extracting features: Slots/Test/A_batch/batch_1323.mat
+  [21/150] Extracting features: Slots/Test/A_batch/batch_693.mat
+  [22/150] Extracting features: Slots/Test/A_batch/batch_1337.mat
+  [23/150] Extracting features: Slots/Test/A_batch/batch_947.mat
+  [24/150] Extracting features: Slots/Test/A_batch/batch_1596.mat
+  [25/150] Extracting features: Slots/Test/A_batch/batch_1051.mat
+  [26/150] Extracting features: Slots/Test/A_batch/batch_1531.mat
+  [27/150] Extracting features: Slots/Test/A_batch/batch_1327.mat
+  [28/150] Extracting features: Slots/Test/A_batch/batch_964.mat
+  [29/150] Extracting features: Slots/Test/A_batch/batch_662.mat
+  [30/150] Extracting features: Slots/Test/A_batch/batch_656.mat
+  [31/150] Extracting features: Slots/Test/A_batch/batch_907.mat
+  [32/150] Extracting features: Slots/Test/A_batch/batch_587.mat
+  [33/150] Extracting features: Slots/Test/A_batch/batch_1330.mat
+  [34/150] Extracting features: Slots/Test/A_batch/batch_1477.mat
+  [35/150] Extracting features: Slots/Test/A_batch/batch_426.mat
+  [36/150] Extracting features: Slots/Test/A_batch/batch_1182.mat
+  [37/150] Extracting features: Slots/Test/A_batch/batch_1523.mat
+  [38/150] Extracting features: Slots/Test/A_batch/batch_1131.mat
+  [39/150] Extracting features: Slots/Test/A_batch/batch_1599.mat
+  [40/150] Extracting features: Slots/Test/A_batch/batch_1435.mat
+  [41/150] Extracting features: Slots/Test/A_batch/batch_896.mat
+  [42/150] Extracting features: Slots/Test/A_batch/batch_214.mat
+  [43/150] Extracting features: Slots/Test/A_batch/batch_1248.mat
+  [44/150] Extracting features: Slots/Test/A_batch/batch_150.mat
+  [45/150] Extracting features: Slots/Test/A_batch/batch_1516.mat
+  [46/150] Extracting features: Slots/Test/A_batch/batch_860.mat
+  [47/150] Extracting features: Slots/Test/A_batch/batch_673.mat
+  [48/150] Extracting features: Slots/Test/A_batch/batch_326.mat
+  [49/150] Extracting features: Slots/Test/A_batch/batch_958.mat
+  [50/150] Extracting features: Slots/Test/A_batch/batch_1155.mat
+  [51/150] Extracting features: Slots/Test/B_batch/batch_285.mat
+  [52/150] Extracting features: Slots/Test/B_batch/batch_1155.mat
+  [53/150] Extracting features: Slots/Test/B_batch/batch_688.mat
+  [54/150] Extracting features: Slots/Test/B_batch/batch_76.mat
+  [55/150] Extracting features: Slots/Test/B_batch/batch_536.mat
+  [56/150] Extracting features: Slots/Test/B_batch/batch_543.mat
+  [57/150] Extracting features: Slots/Test/B_batch/batch_353.mat
+  [58/150] Extracting features: Slots/Test/B_batch/batch_1169.mat
+  [59/150] Extracting features: Slots/Test/B_batch/batch_1131.mat
+  [60/150] Extracting features: Slots/Test/B_batch/batch_1398.mat
+  [61/150] Extracting features: Slots/Test/B_batch/batch_946.mat
+  [62/150] Extracting features: Slots/Test/B_batch/batch_779.mat
+  [63/150] Extracting features: Slots/Test/B_batch/batch_318.mat
+  [64/150] Extracting features: Slots/Test/B_batch/batch_172.mat
+  [65/150] Extracting features: Slots/Test/B_batch/batch_823.mat
+  [66/150] Extracting features: Slots/Test/B_batch/batch_46.mat
+  [67/150] Extracting features: Slots/Test/B_batch/batch_1374.mat
+  [68/150] Extracting features: Slots/Test/B_batch/batch_1383.mat
+  [69/150] Extracting features: Slots/Test/B_batch/batch_895.mat
+  [70/150] Extracting features: Slots/Test/B_batch/batch_683.mat
+  [71/150] Extracting features: Slots/Test/B_batch/batch_144.mat
+  [72/150] Extracting features: Slots/Test/B_batch/batch_600.mat
+  [73/150] Extracting features: Slots/Test/B_batch/batch_385.mat
+  [74/150] Extracting features: Slots/Test/B_batch/batch_748.mat
+  [75/150] Extracting features: Slots/Test/B_batch/batch_104.mat
+  [76/150] Extracting features: Slots/Test/B_batch/batch_844.mat
+  [77/150] Extracting features: Slots/Test/B_batch/batch_487.mat
+  [78/150] Extracting features: Slots/Test/B_batch/batch_1434.mat
+  [79/150] Extracting features: Slots/Test/B_batch/batch_1095.mat
+  [80/150] Extracting features: Slots/Test/B_batch/batch_1338.mat
+  [81/150] Extracting features: Slots/Test/B_batch/batch_69.mat
+  [82/150] Extracting features: Slots/Test/B_batch/batch_1060.mat
+  [83/150] Extracting features: Slots/Test/B_batch/batch_119.mat
+  [84/150] Extracting features: Slots/Test/B_batch/batch_1370.mat
+  [85/150] Extracting features: Slots/Test/B_batch/batch_491.mat
+  [86/150] Extracting features: Slots/Test/B_batch/batch_521.mat
+  [87/150] Extracting features: Slots/Test/B_batch/batch_41.mat
+  [88/150] Extracting features: Slots/Test/B_batch/batch_196.mat
+  [89/150] Extracting features: Slots/Test/B_batch/batch_1322.mat
+  [90/150] Extracting features: Slots/Test/B_batch/batch_655.mat
+  [91/150] Extracting features: Slots/Test/B_batch/batch_763.mat
+  [92/150] Extracting features: Slots/Test/B_batch/batch_113.mat
+  [93/150] Extracting features: Slots/Test/B_batch/batch_19.mat
+  [94/150] Extracting features: Slots/Test/B_batch/batch_1105.mat
+  [95/150] Extracting features: Slots/Test/B_batch/batch_562.mat
+  [96/150] Extracting features: Slots/Test/B_batch/batch_283.mat
+  [97/150] Extracting features: Slots/Test/B_batch/batch_798.mat
+  [98/150] Extracting features: Slots/Test/B_batch/batch_1418.mat
+  [99/150] Extracting features: Slots/Test/B_batch/batch_636.mat
+  [100/150] Extracting features: Slots/Test/B_batch/batch_754.mat
+  [101/150] Extracting features: Slots/Test/C_batch/batch_43.mat
+  [102/150] Extracting features: Slots/Test/C_batch/batch_924.mat
+  [103/150] Extracting features: Slots/Test/C_batch/batch_506.mat
+  [104/150] Extracting features: Slots/Test/C_batch/batch_1385.mat
+  [105/150] Extracting features: Slots/Test/C_batch/batch_254.mat
+  [106/150] Extracting features: Slots/Test/C_batch/batch_639.mat
+  [107/150] Extracting features: Slots/Test/C_batch/batch_1210.mat
+  [108/150] Extracting features: Slots/Test/C_batch/batch_687.mat
+  [109/150] Extracting features: Slots/Test/C_batch/batch_1416.mat
+  [110/150] Extracting features: Slots/Test/C_batch/batch_212.mat
+  [111/150] Extracting features: Slots/Test/C_batch/batch_851.mat
+  [112/150] Extracting features: Slots/Test/C_batch/batch_881.mat
+  [113/150] Extracting features: Slots/Test/C_batch/batch_48.mat
+  [114/150] Extracting features: Slots/Test/C_batch/batch_352.mat
+  [115/150] Extracting features: Slots/Test/C_batch/batch_423.mat
+  [116/150] Extracting features: Slots/Test/C_batch/batch_1262.mat
+  [117/150] Extracting features: Slots/Test/C_batch/batch_608.mat
+  [118/150] Extracting features: Slots/Test/C_batch/batch_1260.mat
+  [119/150] Extracting features: Slots/Test/C_batch/batch_317.mat
+  [120/150] Extracting features: Slots/Test/C_batch/batch_1180.mat
+  [121/150] Extracting features: Slots/Test/C_batch/batch_716.mat
+  [122/150] Extracting features: Slots/Test/C_batch/batch_117.mat
+  [123/150] Extracting features: Slots/Test/C_batch/batch_844.mat
+  [124/150] Extracting features: Slots/Test/C_batch/batch_1006.mat
+  [125/150] Extracting features: Slots/Test/C_batch/batch_1278.mat
+  [126/150] Extracting features: Slots/Test/C_batch/batch_925.mat
+  [127/150] Extracting features: Slots/Test/C_batch/batch_1437.mat
+  [128/150] Extracting features: Slots/Test/C_batch/batch_1371.mat
+  [129/150] Extracting features: Slots/Test/C_batch/batch_841.mat
+  [130/150] Extracting features: Slots/Test/C_batch/batch_788.mat
+  [131/150] Extracting features: Slots/Test/C_batch/batch_337.mat
+  [132/150] Extracting features: Slots/Test/C_batch/batch_616.mat
+  [133/150] Extracting features: Slots/Test/C_batch/batch_3.mat
+  [134/150] Extracting features: Slots/Test/C_batch/batch_1174.mat
+  [135/150] Extracting features: Slots/Test/C_batch/batch_73.mat
+  [136/150] Extracting features: Slots/Test/C_batch/batch_1115.mat
+  [137/150] Extracting features: Slots/Test/C_batch/batch_771.mat
+  [138/150] Extracting features: Slots/Test/C_batch/batch_728.mat
+  [139/150] Extracting features: Slots/Test/C_batch/batch_691.mat
+  [140/150] Extracting features: Slots/Test/C_batch/batch_532.mat
+  [141/150] Extracting features: Slots/Test/C_batch/batch_141.mat
+  [142/150] Extracting features: Slots/Test/C_batch/batch_749.mat
+  [143/150] Extracting features: Slots/Test/C_batch/batch_344.mat
+  [144/150] Extracting features: Slots/Test/C_batch/batch_1342.mat
+  [145/150] Extracting features: Slots/Test/C_batch/batch_1140.mat
+  [146/150] Extracting features: Slots/Test/C_batch/batch_1190.mat
+  [147/150] Extracting features: Slots/Test/C_batch/batch_397.mat
+  [148/150] Extracting features: Slots/Test/C_batch/batch_28.mat
+  [149/150] Extracting features: Slots/Test/C_batch/batch_107.mat
+  [150/150] Extracting features: Slots/Test/C_batch/batch_1040.mat
+
+[experiment_01_zero_shot] Feature records extracted: 150
+
+[experiment_01_zero_shot] Classifying 150 records (zero-shot)...
+
+[experiment_01_zero_shot] Classifying 150 records (zero-shot)...
+  [1/150] gt=A pred=A conf=1.0 status=ok
+  [2/150] gt=A pred=A conf=1.0 status=ok
+  [3/150] gt=A pred=UNKNOWN conf=0.0 status=ok
+  [4/150] gt=A pred=A conf=1.0 status=ok
+  [5/150] gt=A pred=UNKNOWN conf=0.0 status=ok
+  [6/150] gt=A pred=A conf=0.85 status=ok
+  [7/150] gt=A pred=A conf=1.0 status=ok
+  [8/150] gt=A pred=UNKNOWN conf=0.0 status=ok
+  [9/150] gt=A pred=A conf=0.8 status=ok
+  [10/150] gt=A pred=A conf=1.0 status=ok
+  [11/150] gt=A pred=A conf=1.0 status=ok
+  [12/150] gt=A pred=A conf=1.0 status=ok
+  [13/150] gt=A pred=A conf=1.0 status=ok
+  [14/150] gt=A pred=UNKNOWN conf=0.0 status=ok
+  [15/150] gt=A pred=None conf=None status=client_error
+  [16/150] gt=A pred=A conf=0.8 status=ok
+  [17/150] gt=A pred=None conf=None status=client_error
+  [18/150] gt=A pred=None conf=None status=client_error
+  [19/150] gt=A pred=None conf=None status=client_error
+  [20/150] gt=A pred=None conf=None status=client_error
+  [21/150] gt=A pred=None conf=None status=client_error
+  [22/150] gt=A pred=None conf=None status=client_error
+  [23/150] gt=A pred=None conf=None status=client_error
+  [24/150] gt=A pred=None conf=None status=client_error
+  [25/150] gt=A pred=None conf=None status=client_error
+  [26/150] gt=A pred=None conf=None status=client_error
+  [27/150] gt=A pred=A conf=1.0 status=ok
+  [28/150] gt=A pred=None conf=None status=client_error
+  [29/150] gt=A pred=None conf=None status=client_error
+  [30/150] gt=A pred=A conf=1.0 status=ok
+  [31/150] gt=A pred=A conf=0.4 status=ok
+  [32/150] gt=A pred=A conf=0.85 status=ok
+  [33/150] gt=A pred=A conf=1.0 status=ok
+  [34/150] gt=A pred=A conf=0.85 status=ok
+  [35/150] gt=A pred=UNKNOWN conf=0.0 status=ok
+  [36/150] gt=A pred=A conf=0.85 status=ok
+  [37/150] gt=A pred=A conf=0.85 status=ok
+  [38/150] gt=A pred=A conf=1.0 status=ok
+  [39/150] gt=A pred=A conf=0.8 status=ok
+  [40/150] gt=A pred=A conf=1.0 status=ok
+  [41/150] gt=A pred=A conf=1.0 status=ok
+  [42/150] gt=A pred=A conf=1.0 status=ok
+  [43/150] gt=A pred=A conf=0.8 status=ok
+  [44/150] gt=A pred=None conf=None status=client_error
+  [45/150] gt=A pred=A conf=1.0 status=ok
+  [46/150] gt=A pred=A conf=0.85 status=ok
+  [47/150] gt=A pred=A conf=1.0 status=ok
+  [48/150] gt=A pred=None conf=None status=client_error
+  [49/150] gt=A pred=A conf=1.0 status=ok
+  [50/150] gt=A pred=None conf=None status=client_error
+  [51/150] gt=B pred=None conf=None status=client_error
+  [52/150] gt=B pred=None conf=None status=client_error
+  [53/150] gt=B pred=None conf=None status=client_error
+  [54/150] gt=B pred=B conf=0.6 status=ok
+  [55/150] gt=B pred=None conf=None status=client_error
+  [56/150] gt=B pred=None conf=None status=client_error
+  [57/150] gt=B pred=None conf=None status=client_error
+  [58/150] gt=B pred=None conf=None status=client_error
+  [59/150] gt=B pred=None conf=None status=client_error
+  [60/150] gt=B pred=None conf=None status=client_error
+  [61/150] gt=B pred=None conf=None status=client_error
+  [62/150] gt=B pred=None conf=None status=client_error
+  [63/150] gt=B pred=None conf=None status=client_error
+  [64/150] gt=B pred=None conf=None status=client_error
+  [65/150] gt=B pred=None conf=None status=client_error
+  [66/150] gt=B pred=None conf=None status=client_error
+  [67/150] gt=B pred=None conf=None status=client_error
+  [68/150] gt=B pred=None conf=None status=client_error
+  [69/150] gt=B pred=None conf=None status=client_error
+  [70/150] gt=B pred=None conf=None status=client_error
+  [71/150] gt=B pred=None conf=None status=client_error
+  [72/150] gt=B pred=None conf=None status=client_error
+  [73/150] gt=B pred=None conf=None status=client_error
+  [74/150] gt=B pred=None conf=None status=client_error
+  [75/150] gt=B pred=None conf=None status=client_error
+  [76/150] gt=B pred=None conf=None status=client_error
+  [77/150] gt=B pred=None conf=None status=client_error
+  [78/150] gt=B pred=None conf=None status=client_error
+  [79/150] gt=B pred=None conf=None status=client_error
+  [80/150] gt=B pred=None conf=None status=client_error
+  [81/150] gt=B pred=None conf=None status=client_error
+  [82/150] gt=B pred=B conf=1.0 status=ok
+  [83/150] gt=B pred=B conf=0.85 status=ok
+  [84/150] gt=B pred=B conf=1.0 status=ok
+  [85/150] gt=B pred=B conf=1.0 status=ok
+  [86/150] gt=B pred=B conf=1.0 status=ok
+  [87/150] gt=B pred=B conf=0.8 status=ok
+  [88/150] gt=B pred=B conf=0.85 status=ok
+  [89/150] gt=B pred=B conf=1.0 status=ok
+  [90/150] gt=B pred=B conf=0.95 status=ok
+  [91/150] gt=B pred=B conf=1.0 status=ok
+  [92/150] gt=B pred=B conf=1.0 status=ok
+  [93/150] gt=B pred=B conf=1.0 status=ok
+  [94/150] gt=B pred=B conf=1.0 status=ok
+  [95/150] gt=B pred=B conf=0.95 status=ok
+  [96/150] gt=B pred=B conf=1.0 status=ok
+  [97/150] gt=B pred=None conf=None status=client_error
+  [98/150] gt=B pred=B conf=0.85 status=ok
+  [99/150] gt=B pred=None conf=None status=client_error
+  [100/150] gt=B pred=None conf=None status=client_error
+  [101/150] gt=C pred=C conf=1.0 status=ok
+  [102/150] gt=C pred=None conf=None status=client_error
+  [103/150] gt=C pred=None conf=None status=client_error
+  [104/150] gt=C pred=None conf=None status=client_error
+  [105/150] gt=C pred=None conf=None status=client_error
+  [106/150] gt=C pred=None conf=None status=client_error
+  [107/150] gt=C pred=None conf=None status=client_error
+  [108/150] gt=C pred=None conf=None status=client_error
+  [109/150] gt=C pred=None conf=None status=client_error
+  [110/150] gt=C pred=None conf=None status=client_error
+  [111/150] gt=C pred=None conf=None status=client_error
+  [112/150] gt=C pred=None conf=None status=client_error
+  [113/150] gt=C pred=None conf=None status=client_error
+  [114/150] gt=C pred=None conf=None status=client_error
+  [115/150] gt=C pred=None conf=None status=client_error
+  [116/150] gt=C pred=None conf=None status=client_error
+  [117/150] gt=C pred=None conf=None status=client_error
+  [118/150] gt=C pred=None conf=None status=client_error
+  [119/150] gt=C pred=None conf=None status=client_error
+  [120/150] gt=C pred=C conf=1.0 status=ok
+  [121/150] gt=C pred=None conf=None status=client_error
+  [122/150] gt=C pred=None conf=None status=client_error
+  [123/150] gt=C pred=None conf=None status=client_error
+  [124/150] gt=C pred=None conf=None status=client_error
+  [125/150] gt=C pred=None conf=None status=client_error
+  [126/150] gt=C pred=None conf=None status=client_error
+  [127/150] gt=C pred=None conf=None status=client_error
+  [128/150] gt=C pred=None conf=None status=client_error
+  [129/150] gt=C pred=None conf=None status=client_error
+  [130/150] gt=C pred=None conf=None status=client_error
+  [131/150] gt=C pred=None conf=None status=client_error
+  [132/150] gt=C pred=None conf=None status=client_error
+  [133/150] gt=C pred=None conf=None status=client_error
+  [134/150] gt=C pred=None conf=None status=client_error
+  [135/150] gt=C pred=None conf=None status=client_error
+  [136/150] gt=C pred=None conf=None status=client_error
+  [137/150] gt=C pred=None conf=None status=client_error
+  [138/150] gt=C pred=C conf=0.85 status=ok
+  [139/150] gt=C pred=C conf=1.0 status=ok
+  [140/150] gt=C pred=C conf=0.85 status=ok
+  [141/150] gt=C pred=C conf=0.8 status=ok
+  [142/150] gt=C pred=C conf=0.85 status=ok
+  [143/150] gt=C pred=C conf=1.0 status=ok
+  [144/150] gt=C pred=C conf=1.0 status=ok
+  [145/150] gt=C pred=C conf=1.0 status=ok
+  [146/150] gt=C pred=C conf=1.0 status=ok
+  [147/150] gt=C pred=C conf=1.0 status=ok
+  [148/150] gt=C pred=C conf=0.9 status=ok
+  [149/150] gt=C pred=C conf=1.0 status=ok
+  [150/150] gt=C pred=C conf=1.0 status=ok
+
+=== Evaluation: experiment_01_zero_shot_structured_features ===
+Total predictions: 150
+Evaluable: 61
+Accuracy: 1.0
+Macro F1: 1.0
+Macro precision: 1.0
+Macro recall: 1.0
+UNKNOWN rate: 0.0333
+Parse error rate: 0.56
+
+Per-class:
+  A: P=1.0 R=1.0 F1=1.0 support=29
+  B: P=1.0 R=1.0 F1=1.0 support=17
+  C: P=1.0 R=1.0 F1=1.0 support=15
+
+Artifacts written to: /home/iotlabnew/workspace/wifi-extend/results/experiment_01_zero_shot_structured_features
