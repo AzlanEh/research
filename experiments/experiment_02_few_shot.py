@@ -28,7 +28,7 @@ import sys
 here = os.path.dirname(os.path.abspath(__file__))
 repo_root = os.path.dirname(here)
 src_dir = os.path.join(repo_root, "src")
-for subdir in ("", "preprocessing", "llm", "evaluation"):
+for subdir in ("", "llm", "evaluation"):
     p = os.path.join(src_dir, subdir)
     if p not in sys.path:
         sys.path.insert(0, p)
@@ -37,8 +37,8 @@ from datasets.simwisense.experiment_manifest import (  # noqa: E402
     load_experiment_manifest,
     select_balanced_from_manifest,
 )
-from preprocessing.load_csi import load_csi_window  # noqa: E402
-from preprocessing.extract_features import extract_features  # noqa: E402
+from preprocessing.simwisense.load_csi import load_csi_window  # noqa: E402
+from preprocessing.simwisense.extract_features import extract_features  # noqa: E402
 from llm.classifier import classify_record, is_configured  # noqa: E402
 from evaluation.evaluate import run_evaluation  # noqa: E402
 

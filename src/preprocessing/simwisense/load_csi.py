@@ -9,7 +9,7 @@ Responsibilities:
      no normalization, no gain scaling is applied silently.
 
 Designed to run from ``src/``:
-    python preprocessing/load_csi.py --mat path/to/batch_0.mat
+    python -m preprocessing.simwisense.load_csi --mat path/to/batch_0.mat
 
 Read-only with respect to the source dataset.
 """

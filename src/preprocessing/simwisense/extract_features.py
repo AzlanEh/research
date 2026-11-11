@@ -15,7 +15,7 @@ for tracking only (to support the separate AGC investigation), not for
 correction.
 
 Designed to run from ``src/``:
-    python preprocessing/extract_features.py --manifest data/processed/manifest.json --limit 10
+    python -m preprocessing.simwisense.extract_features --manifest data/processed/manifest.json --limit 10
 
 Outputs a JSONL feature file to ``data/processed/`` by default.
 """
@@ -25,18 +25,11 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import sys
 from typing import Any
 
 import numpy as np
 
-# Try to import load_csi from the same package when run as a module,
-# otherwise fall back to path manipulation for standalone script use.
-try:
-    from load_csi import CsiWindow, load_csi_window, amplitude, phase
-except ImportError:  # pragma: no cover - standalone script fallback
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from load_csi import CsiWindow, load_csi_window, amplitude, phase  # noqa: F811
+from .load_csi import CsiWindow, load_csi_window, amplitude, phase
 
 # Number of temporal segments to divide the 50-sample window into.
 NUM_TEMPORAL_SEGMENTS = 5
@@ -315,7 +308,7 @@ def main() -> None:
     parser.add_argument(
         "--manifest",
         default=None,
-        help="Path to manifest JSON (default: ../data/processed/manifest.json)",
+        help="Path to manifest JSON (default: <repo>/data/processed/manifest.json)",
     )
     parser.add_argument(
         "--dataset",
@@ -343,13 +336,15 @@ def main() -> None:
     parser.add_argument(
         "--out",
         default=None,
-        help="Output JSONL path (default: ../data/processed/features.jsonl)",
+        help="Output JSONL path (default: <repo>/data/processed/features.jsonl)",
     )
     args = parser.parse_args()
 
-    # Resolve paths relative to repo root (<root>/src/preprocessing -> <root>/).
+    # Resolve paths relative to repo root:
+    # <root>/src/preprocessing/simwisense -> <root>.
     here = os.path.dirname(os.path.abspath(__file__))
-    src_dir = os.path.dirname(here)
+    preprocessing_dir = os.path.dirname(here)
+    src_dir = os.path.dirname(preprocessing_dir)
     repo_root = os.path.dirname(src_dir)
 
     manifest_path = args.manifest
