@@ -1,7 +1,7 @@
-"""Regression tests for ``llm.client``.
+"""Regression tests for ``common.llm.client``.
 
 All HTTP traffic is mocked. Module-level configuration is patched directly
-because ``client.py`` reads the environment at import time.
+because ``common/llm/client.py`` reads the environment at import time.
 
 Known defects are pinned as current behaviour:
   - HTTP-date ``Retry-After`` values are ignored.
@@ -17,7 +17,7 @@ import unittest
 import urllib.error
 from unittest import mock
 
-from llm import client
+from common.llm import client
 
 
 def completion_payload(

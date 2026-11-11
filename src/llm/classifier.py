@@ -3,9 +3,9 @@
 Orchestrates LLM-based CSI activity classification.
 
 Ties together:
-  - client.py        : API call
-  - prompt_builder.py: prompt construction (zero-shot / few-shot)
-  - response_parser.py: strict JSON parsing
+  - common/llm/client.py         : API call
+  - prompt_builder.py            : prompt construction (zero-shot / few-shot)
+  - common/llm/response_parser.py: strict JSON parsing
 
 Returns a prediction record containing everything needed for evaluation:
 
@@ -29,7 +29,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .client import LLMClientError, chat_completion, is_configured
+from common.llm.client import LLMClientError, chat_completion, is_configured
 from .prompt_builder import (
     REPRESENTATION_STRUCTURED,
     REPRESENTATION_AMPLITUDE,
@@ -37,7 +37,7 @@ from .prompt_builder import (
     build_zero_shot_prompt,
     prompt_version,
 )
-from .response_parser import ALLOWED_LABELS, parse_response
+from common.llm.response_parser import ALLOWED_LABELS, parse_response
 
 
 class ClassifierError(RuntimeError):

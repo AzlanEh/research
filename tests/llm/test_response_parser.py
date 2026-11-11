@@ -1,4 +1,4 @@
-"""Regression tests for ``llm.response_parser``.
+"""Regression tests for ``common.llm.response_parser``.
 
 These tests pin the parser's current observable behaviour, including known
 limitations (greedy JSON extraction, empty-label-set fallback). They are a
@@ -11,7 +11,7 @@ from __future__ import annotations
 import json
 import unittest
 
-from llm.response_parser import (
+from common.llm.response_parser import (
     extract_json_object,
     parse_response,
     parse_statuses_summary,
