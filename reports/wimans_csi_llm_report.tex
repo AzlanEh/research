@@ -1,0 +1,360 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{float}
+
+\emergencystretch=3em
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    urlcolor=blue!60!black,
+    citecolor=blue!60!black,
+    pdftitle={Wi-Fi CSI Human Activity Recognition Using LLMs on WiMANS},
+    pdfauthor={wifi-extend Research Project}
+}
+
+\lstdefinelanguage{json}{
+    basicstyle=\ttfamily\footnotesize,
+    numbers=none,
+    breaklines=true,
+    breakatwhitespace=false,
+    breakautoindent=true,
+    frame=single,
+    xleftmargin=2pt,
+    xrightmargin=2pt,
+    backgroundcolor=\color{gray!6},
+    rulecolor=\color{gray!40},
+    showstringspaces=false,
+    columns=flexible
+}
+
+\lstdefinestyle{promptblock}{
+    basicstyle=\ttfamily\footnotesize,
+    breaklines=true,
+    breakatwhitespace=false,
+    breakautoindent=true,
+    frame=single,
+    xleftmargin=2pt,
+    xrightmargin=2pt,
+    backgroundcolor=\color{blue!3},
+    rulecolor=\color{blue!30!gray},
+    showstringspaces=false,
+    columns=flexible,
+    keepspaces=true
+}
+
+\title{\textbf{Wi-Fi CSI Human Activity Recognition Using Large Language Models on the WiMANS Dataset}\\[0.5em]
+\large Experimental Progress, Feature Engineering Evolution (V1--V5), and Actual LLM I/O Trace}
+\author{Project Repository: \texttt{wifi-extend} (\texttt{src/llm/wimans}, \texttt{experiments/wimans})}
+\date{November 26, 2026}
+
+\begin{document}
+\sloppy
+
+\maketitle
+
+\begin{abstract}
+This report documents the experimental investigation of Large Language Model (LLM)-based human activity recognition (HAR) using Wi-Fi Channel State Information (CSI) amplitude data from the \textbf{WiMANS} dataset. Starting from multi-user and single-person presence-plus-activity pilots that revealed severe class collapse (\texttt{walk}/\texttt{nothing}) and high token overhead, we isolated the 9-class single-person activity recognition task and iteratively engineered physics-grounded CSI representations from Version 1 (V1) through Version 5 (V5). Evaluated with \texttt{gemini-3.5-flash-lite} under zero-shot and few-shot Chain-of-Thought (CoT) regimes, structured physical-model-guided prompting improved 9-class single-person accuracy from \textbf{15.38\%} (V1, Macro F1 = 0.0307) to \textbf{48.89\%} (V4, Macro F1 = 0.4447) and \textbf{48.89\%} with higher class balance (V5, Macro F1 = \textbf{0.4869}, 100\% JSON parse rate). The report concludes with a verbatim, unedited example of an actual LLM input prompt (system + user payload) and the corresponding actual LLM response from the V5 evaluation.
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Executive Summary}
+The WiMANS research track in \texttt{wifi-extend} investigates whether an LLM can classify human activities from Wi-Fi CSI amplitude tensors without task-specific neural network training, by translating RF propagation physics into compact numerical descriptors and hierarchical decision prompts.
+
+Key findings from the repository experiments (\texttt{results/wimans/}) are:
+\begin{enumerate}
+    \item \textbf{Multi-user and raw-sequence pilots struggle:} On a 20-sample group-disjoint multi-user pilot (\texttt{pilot\_paired}), both V1 and V2 achieved \textbf{0.0\%} exact-multiset accuracy (Macro F1 = 0.0423 for V1; 0.0682 for V2), while V2 consumed $6.77\times$ more prompt tokens (343,420 vs.\ 50,706). On a 70-sample single-person presence+activity pilot (\texttt{single\_person\_pilot}), presence accuracy was 81.43\% (V1) / 75.71\% (V2), but 9-class activity accuracy remained at 9.52\% (V1) / 11.11\% (V2).
+    \item \textbf{Physical normalization and temporal-shape cues break class collapse:} Isolating single-person activity classification and replacing raw statistics (V1) and raw 100-packet sequences (V2) with normalized relative motion descriptors (V3) and 4-quarter temporal envelopes (V4) raised accuracy from 15.38\% (V1) and 16.67\% (V2) to 33.33\% (V3) and 48.89\% (V4, $n=45$).
+    \item \textbf{Lean spectral/Doppler hybrid (V5) improves Macro F1:} Adding three high-signal subcarrier and Doppler metrics (\texttt{subcarrier\_coherence\_ratio}, \texttt{mid\_freq\_ratio\_2\_6hz}, \texttt{high\_to\_low\_doppler\_ratio}) to V4's 6-stage hierarchy raised Macro F1 from 0.4447 (V4) to \textbf{0.4869} (V5, $n=45$), notably lifting \texttt{jump} F1 from 0.00 to 0.40 and \texttt{wave} F1 from 0.4444 to 0.6667.
+    \item \textbf{Few-shot CoT underperformed zero-shot hierarchical prompting:} On the 18-sample V3 benchmark, 3-shot Chain-of-Thought (\texttt{activity\_only\_few\_shot\_v3}) scored 27.78\% accuracy (Macro F1 = 0.2370) compared to 33.33\% (Macro F1 = 0.3259) for zero-shot V3.
+\end{enumerate}
+
+\section{WiMANS Dataset and Problem Formulation}
+The \textbf{WiMANS} dataset comprises \textbf{11,286} CSI recordings with tensor shape $(T, 3, 3, 30)$, where:
+\begin{itemize}
+    \item $T \le 3000$ is the number of time steps (variable due to packet loss; intended length 3,000),
+    \item $3 \times 3 = 9$ represents the MIMO transmit--receive antenna links (\texttt{link\_00} through \texttt{link\_22}),
+    \item $30$ is the number of OFDM subcarriers.
+\end{itemize}
+Recordings span two Wi-Fi frequency bands (\textbf{2.4 GHz} and \textbf{5 GHz}), three environments (\textbf{Classroom}, \textbf{Meeting Room}, \textbf{Empty Room}), and 0--5 simultaneous users. For the single-person activity-only track, recordings with exactly one active user are evaluated across \textbf{9 activity classes}:
+\begin{center}
+\texttt{nothing}, \texttt{walk}, \texttt{rotation}, \texttt{jump}, \texttt{wave}, \texttt{lie\_down}, \texttt{pick\_up}, \texttt{sit\_down}, \texttt{stand\_up}.
+\end{center}
+All LLM experiments reported here used \texttt{gemini-3.5-flash-lite} accessed via the Google Generative Language OpenAI-compatible endpoint (\texttt{temperature = 0.0}).
+
+\section{Data Extraction and Preprocessing Pipeline (Pre-LLM)}
+Before any signal reaches the LLM, raw WiMANS CSI tensors undergo a deterministic four-stage extraction and preprocessing pipeline in \texttt{src/datasets/wimans/}, \texttt{src/preprocessing/wimans/}, and \texttt{src/llm/wimans/}.
+
+\subsection{Stage 1: Raw Data Indexing and Manifest Construction}
+In \texttt{src/datasets/wimans/build\_manifest.py}, raw amplitude files are indexed without loading the full $\sim$33\,GB dataset into memory:
+\begin{enumerate}
+    \item \textbf{Memory-mapped inspection:} Each recording \texttt{<label>.npy} in \texttt{wifi\_csi/amp/} is opened via \texttt{np.load(csi\_path, mmap\_mode="r")} to verify its 4D tensor shape $(T, 3, 3, 30)$ and \texttt{dtype}.
+    \item \textbf{Annotation parsing:} Metadata from \texttt{annotation.csv} is joined with tensor metadata, extracting \texttt{environment}, \texttt{wifi\_band}, \texttt{group\_id}, \texttt{sample\_index}, \texttt{number\_of\_users}, and occupied user slots (\texttt{user\_1}--\texttt{user\_6} locations and activities).
+    \item \textbf{Manifest \& split generation:} The indexed records are written to \texttt{data/processed/wimans/manifest.jsonl}, from which group-disjoint splits and single-person activity-only subsets are derived.
+\end{enumerate}
+
+\subsection{Stage 2: 100\,ms Windowing and Baseline-Normalized Motion Features (V4 Base)}
+In \texttt{src/preprocessing/wimans/extract\_features\_v4.py}, raw $(T, 3, 3, 30)$ amplitude tensors are cast to \texttt{float64}, checked for finiteness (\texttt{np.isfinite}) and minimum length ($T \ge 200$ packets in V5), and compressed into 100-packet ($\approx 100$\,ms at 1,000\,Hz) non-overlapping windows:
+\begin{equation}
+    m_{\ell}(w) = \frac{1}{|I_w| \cdot 30} \sum_{t \in I_w} \sum_{k=0}^{29} X[t, \text{tx}, \text{rx}, k], \qquad \ell = (\text{tx}, \text{rx}) \in \{0,1,2\}^2,
+\end{equation}
+yielding a $(W, 3, 3)$ window-mean tensor where $W = \lceil T / 100 \rceil$. For each link $\ell$, we compute its recording baseline $b_{\ell} = \max(\text{mean}_w(m_{\ell}(w)), 1.0)$ and window-to-window differences $\Delta m_{\ell}(w) = |m_{\ell}(w) - m_{\ell}(w-1)|$, then normalize:
+\begin{align}
+    \text{rel\_motion\_delta}_{\ell} &= \frac{\text{mean}_w(\Delta m_{\ell})}{b_{\ell}}, &
+    \text{rel\_trajectory\_std}_{\ell} &= \frac{\text{std}_w(m_{\ell})}{b_{\ell}}, \\
+    \text{burst\_ratio}_{\ell} &= \frac{\max_w(\Delta m_{\ell})}{\text{median}_w(\Delta m_{\ell}) + 10^{-4}}, &
+    \text{rel\_posture\_shift}_{\ell} &= \frac{\bar{m}_{\ell,\text{last } n_{\text{edge}}} - \bar{m}_{\ell,\text{first } n_{\text{edge}}}}{b_{\ell}},
+\end{align}
+where $n_{\text{edge}} = \min(5, \lfloor W/2 \rfloor)$. Across all 9 links, these form \texttt{recording\_profile} (including \texttt{active\_window\_fraction} where global mean relative delta $> 0.025$, \texttt{active\_link\_fraction}, \texttt{peak\_duration\_windows}, \texttt{mid\_to\_edge\_return\_ratio}, and \texttt{elevation\_ratio\_shift} from \texttt{link\_00}/\texttt{link\_02}) and \texttt{temporal\_envelope} (4-quarter relative level profiles \texttt{global\_q4\_rel\_profile}, \texttt{dominant\_link\_q4\_rel\_profile}, and \texttt{window\_delta\_q4}).
+
+\subsection{Stage 3: Subcarrier-Resolved and Doppler-Band Extraction (V5)}
+Because 100\,ms subcarrier-averaged windows discard frequency-selective fading and rapid vertical velocity, \texttt{src/preprocessing/wimans/extract\_features\_v5.py} operates directly on the raw $(T, 3, 3, 30)$ tensor:
+\begin{enumerate}
+    \item \textbf{25\,ms framing:} The tensor is downsampled into non-overlapping 25-packet frames ($40$\,Hz effective rate) across all $9 \times 30 = 270$ streams, and normalized into zero-mean fractional deviations $\tilde{X} = (X_{25} - \bar{X}_{25}) / \max(|\bar{X}_{25}|, 1.0)$.
+    \item \textbf{Subcarrier coherence:} Reshaping $\tilde{X}$ to $(F, 9, 30)$, we compute
+    \begin{equation}
+        \text{subcarrier\_coherence\_ratio} = \operatorname{clip}\!\left(\frac{\text{mean}_{\ell}(\text{std}_t(\bar{X}_{\ell,\text{sub}}))}{\text{mean}_{\ell,k}(\text{std}_t(\tilde{X}_{\ell,k})) + 10^{-6}},\, 0,\, 1\right),
+    \end{equation}
+    separating incoherent thermal noise ($\approx 0.35$) from coherent whole-body scattering ($>0.44$).
+    \item \textbf{Doppler-band FFT:} A Hann window is applied along time to $\tilde{X}$, followed by \texttt{np.fft.rfft} averaged across all 270 streams for $f \ge 0.3$\,Hz. Power is integrated over low ($0.3\text{--}2.0$\,Hz), mid ($2.0\text{--}6.0$\,Hz, \texttt{mid\_freq\_ratio\_2\_6hz}), and high ($\ge 6.0$\,Hz) bands, giving $\text{high\_to\_low\_doppler\_ratio} = \min(P_{\text{high}} / (P_{\text{low}} + 10^{-12}),\, 99.0)$.
+\end{enumerate}
+
+\subsection{Stage 4: Prompt Serialization}
+Finally, \texttt{build\_activity\_only\_prompt\_v5()} in \texttt{src/llm/wimans/prompt\_builder\_activity\_v5.py} extracts only \texttt{environment}, \texttt{wifi\_band}, \texttt{recording\_profile}, \texttt{temporal\_envelope}, \texttt{motion\_summary}, and the three high-signal \texttt{spectral\_cues} (\texttt{subcarrier\_coherence\_ratio}, \texttt{mid\_freq\_ratio\_2\_6hz}, \texttt{high\_to\_low\_doppler\_ratio}), serializing them as compact sorted JSON alongside the 6-stage physical decision hierarchy system prompt.
+
+\section{Feature Engineering and Prompt Evolution (V1--V5)}
+Across five iterations in \texttt{src/preprocessing/wimans/} and \texttt{src/llm/wimans/}, the input representation was progressively refined:
+
+\begin{itemize}
+    \item \textbf{V1 (\texttt{extract\_features.py}):} Recording-level summary statistics per link. Discarded temporal ordering, causing dynamic and static activities to collapse into \texttt{walk} (25/26 predictions in \texttt{activity\_only\_v1}).
+    \item \textbf{V2 (\texttt{extract\_features\_v2.py}):} Explicit chronological per-100-packet window sequences (\texttt{temporal\_sequence}). Preserved order but created extreme prompt length without physical normalization, causing collapse to \texttt{nothing} (9/18) and \texttt{walk} (9/18).
+    \item \textbf{V3 (\texttt{extract\_features\_v3.py}):} True physical motion descriptors normalized relative to per-link baseline amplitude: \texttt{global\_rel\_motion\_delta}, \texttt{global\_rel\_trajectory\_std}, \texttt{signed\_posture\_shift}, \texttt{max\_burst\_ratio}, \texttt{active\_window\_fraction}, and \texttt{active\_link\_fraction}.
+    \item \textbf{V4 (\texttt{extract\_features\_v4.py}):} Extended V3 with 4-quarter temporal-envelope profiles (\texttt{global\_q4\_rel\_profile}, \texttt{dominant\_link\_q4\_rel\_profile}, \texttt{window\_delta\_q4}), return-to-baseline ratio (\texttt{mid\_to\_edge\_return\_ratio}), \texttt{elevation\_ratio\_shift}, and \texttt{peak\_duration\_windows}, paired with a 6-stage physical decision hierarchy.
+    \item \textbf{V5 (\texttt{extract\_features\_v5.py}, \texttt{prompt\_builder\_activity\_v5.py}):} Computed per-subcarrier coherence and Doppler-band energy ratios directly from raw $(T, 3, 3, 30)$ CSI amplitude arrays. To avoid overloading the lightweight LLM with 13+ spectral fields, the V5 prompt (\texttt{wimans\_activity\_only\_hybrid\_v4\_v5}) retains V4's 6-stage hierarchy and injects only three spectral discriminants:
+    \begin{enumerate}
+        \item \texttt{subcarrier\_coherence\_ratio} ($\approx 0.35$ thermal noise; $>0.44$ coherent body scattering),
+        \item \texttt{mid\_freq\_ratio\_2\_6hz} (2--6\,Hz energy fraction, elevated in \texttt{jump} and \texttt{wave}),
+        \item \texttt{high\_to\_low\_doppler\_ratio} ($>1.3$ rapid impulse; $<1.0$ slow posture/bend).
+    \end{enumerate}
+\end{itemize}
+
+\section{Experimental Results}
+
+\subsection{Pilot Experiments (Multi-User and Presence+Activity)}
+Table~\ref{tab:pilots} summarizes the initial WiMANS pilot runs prior to isolating the single-person activity-only task.
+
+\begin{table}[H]
+\centering
+\caption{Summary of WiMANS Multi-User and Single-Person Presence+Activity Pilots (\texttt{gemini-3.5-flash-lite})}
+\label{tab:pilots}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Experiment} & \textbf{Features} & \textbf{$N$} & \textbf{Primary Metric} & \textbf{Macro F1} & \textbf{Tokens (Prompt)} \\
+\midrule
+\texttt{pilot\_paired} (multi-user) & V1 & 20 & Exact-multiset: 0.00\% & 0.0423 & 50,706 \\
+\texttt{pilot\_paired} (multi-user) & V2 & 20 & Exact-multiset: 0.00\% & 0.0682 & 343,420 \\
+\texttt{single\_person\_pilot} (presence) & V1 & 70 & Presence Acc: 81.43\% & -- & -- \\
+\texttt{single\_person\_pilot} (presence) & V2 & 70 & Presence Acc: 75.71\% & -- & -- \\
+\texttt{single\_person\_pilot} (activity) & V1 & 63 & Activity Acc: 9.52\% & 0.0230 & -- \\
+\texttt{single\_person\_pilot} (activity) & V2 & 63 & Activity Acc: 11.11\% & 0.0442 & -- \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\subsection{Single-Person Activity-Only Progression (V1--V5)}
+Table~\ref{tab:progression} reports the progression across all six single-person activity-only evaluations saved in \texttt{results/wimans/}.
+
+\begin{table}[H]
+\centering
+\caption{WiMANS 9-Class Single-Person Activity-Only LLM Results (\texttt{gemini-3.5-flash-lite})}
+\label{tab:progression}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Experiment} & \textbf{Prompt / Strategy} & \textbf{$N$} & \textbf{Parse OK} & \textbf{Accuracy} & \textbf{Macro F1} \\
+\midrule
+\texttt{activity\_only\_v1} & V1 recording stats (zero-shot) & 26 & 26/26 & 15.38\% & 0.0307 \\
+\texttt{activity\_only\_v2} & V2 window sequence (zero-shot) & 18 & 18/18 & 16.67\% & 0.0606 \\
+\texttt{activity\_only\_few\_shot\_v3} & V3 + 3-shot CoT & 18 & 18/18 & 27.78\% & 0.2370 \\
+\texttt{activity\_only\_v3} & V3 physical motion (zero-shot) & 18 & 18/18 & 33.33\% & 0.3259 \\
+\texttt{activity\_only\_v4} & V4 temporal envelope + 6-stage & 45 & 45/45\textsuperscript{*} & \textbf{48.89\%} & 0.4447 \\
+\texttt{activity\_only\_v5} & V4+V5 hybrid + 3 spectral cues & 45 & 45/45 & \textbf{48.89\%} & \textbf{0.4869} \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{0.3em}
+\begin{flushleft}
+\footnotesize{\textsuperscript{*}Note: \texttt{results/wimans/activity\_only\_v4/activity\_evaluation.json} evaluates the 45-sample balanced benchmark (5 samples per class). In V5, mean latency was 5,051.0\,ms, mean prompt tokens 2,561.0, and mean completion tokens 120.3.}
+\end{flushleft}
+\end{table}
+
+\subsection{Per-Class Performance: V4 vs.\ V5 ($N=45$, 5 samples/class)}
+Table~\ref{tab:perclass} compares per-class Precision, Recall, and F1 between V4 and V5 on the 45-sample balanced test set.
+
+\begin{table}[H]
+\centering
+\caption{Per-Class Metrics on the 45-Sample Balanced Benchmark (Support = 5 per class)}
+\label{tab:perclass}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{3}{c}{\textbf{V4 (\texttt{activity\_only\_v4})}} & \multicolumn{3}{c}{\textbf{V5 (\texttt{activity\_only\_v5})}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\textbf{Activity Class} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} & \textbf{Prec.} & \textbf{Rec.} & \textbf{F1} \\
+\midrule
+\texttt{nothing}  & 0.8000 & 0.8000 & 0.8000 & 0.8333 & 1.0000 & \textbf{0.9091} \\
+\texttt{walk}     & 0.6667 & 0.8000 & \textbf{0.7273} & 0.6000 & 0.6000 & 0.6000 \\
+\texttt{rotation} & 0.3333 & 0.2000 & 0.2500 & 0.4000 & 0.4000 & \textbf{0.4000} \\
+\texttt{jump}     & 0.0000 & 0.0000 & 0.0000 & 0.4000 & 0.4000 & \textbf{0.4000} \\
+\texttt{wave}     & 0.5000 & 0.4000 & 0.4444 & 0.7500 & 0.6000 & \textbf{0.6667} \\
+\texttt{lie\_down} & 0.5714 & 0.8000 & \textbf{0.6667} & 1.0000 & 0.2000 & 0.3333 \\
+\texttt{pick\_up}  & 0.3636 & 0.8000 & \textbf{0.5000} & 0.3750 & 0.6000 & 0.4615 \\
+\texttt{sit\_down} & 0.3333 & 0.2000 & \textbf{0.2500} & 0.1429 & 0.2000 & 0.1667 \\
+\texttt{stand\_up} & 0.3333 & 0.4000 & 0.3636 & 0.5000 & 0.4000 & \textbf{0.4444} \\
+\midrule
+\textbf{Overall / Macro} & \textbf{Acc: 0.4889} & & \textbf{0.4447} & \textbf{Acc: 0.4889} & & \textbf{0.4869} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\section{Actual LLM Input and Output Trace (Sample \texttt{act\_1\_1})}
+Below is an exact, verbatim trace from the V5 evaluation (\texttt{prompt\_version}: \texttt{wimans\_activity\_only\_hybrid\_v4\_v5}) for recording \texttt{act\_1\_1} (ground truth: \texttt{nothing}, environment: \texttt{classroom}, band: \texttt{2.4\,GHz}).
+
+\subsection{Actual Input Given to the LLM}
+The API request sends two messages: a \texttt{system} message (4,475 characters) defining the physical sensing hierarchy, and a \texttt{user} message (2,255 characters) containing the serialized CSI-derived feature JSON for \texttt{act\_1\_1}.
+
+\subsubsection{System Prompt}
+\begin{lstlisting}[style=promptblock]
+You are an expert RF sensing system analyzing Wi-Fi Channel State Information (CSI)
+features for human activity recognition, grounded in wireless multipath propagation physics.
+
+TASK:
+Exactly one person is present in this recording. Identify the single activity
+that best describes this person's activity over the recording.
+Do not perform person-presence detection or estimate the number of people.
+
+ALLOWED ACTIVITY LABELS:
+nothing, walk, rotation, jump, wave, lie_down, pick_up, sit_down, stand_up
+
+INPUT FEATURES PROVIDED:
+1. `recording_profile`: 100ms normalized motion (`global_rel_motion_delta`, `global_rel_trajectory_std`),
+   signed posture shift (`dominant_signed_posture_shift`, `mean_signed_posture_shift`),
+   `max_burst_ratio`, `active_window_fraction`, `active_link_fraction`,
+   `mid_to_edge_return_ratio`, `elevation_ratio_shift`.
+2. `temporal_envelope`: `global_q4_rel_profile`, `dominant_link_q4_rel_profile`, `window_delta_q4`.
+3. `spectral_cues` (3 key subcarrier/Doppler metrics):
+   - `subcarrier_coherence_ratio`: ~0.35 = thermal noise; >0.44 = coherent body scattering.
+   - `mid_freq_ratio_2_6hz`: 2-6 Hz energy fraction (elevated in jump/wave).
+   - `high_to_low_doppler_ratio`: >1.3 = rapid impulse (jump); <1.0 = slow posture/bend.
+4. `motion_summary`: Per-link normalized metrics.
+
+PHYSICAL SENSING DECISION HIERARCHY:
+
+STAGE 1: STATIONARY PRESENCE ("nothing")
+- Criterion: `global_rel_motion_delta <= 0.022` AND `global_rel_trajectory_std <= 0.025`
+  AND `active_window_fraction <= 0.40` AND `subcarrier_coherence_ratio <= 0.40`.
+  (NEVER classify as "nothing" if `global_rel_trajectory_std > 0.025` or `max_burst_ratio >= 7.0`.)
+
+STAGE 2: CONTINUOUS WHOLE-BODY MOTION ("walk" vs "rotation")
+- HARD GUARD: If `active_window_fraction >= 0.70` AND `min(window_delta_q4) >= 0.030`,
+  classify here at Stage 2 ("walk" or "rotation") and NEVER fall through to Stage 3.
+- Criterion: `active_window_fraction >= 0.68` AND `global_rel_motion_delta >= 0.036`
+  AND at least 3 quarters in `window_delta_q4` > 0.030:
+  - "walk": `global_rel_trajectory_std >= 0.070` or Q3/Q4 `window_delta_q4 >= 0.070`
+    or clear monotonic drift across `global_q4_rel_profile`.
+  - "rotation": Sustained moderate cyclical `window_delta_q4` (~0.032-0.066, no quarter >= 0.070).
+
+STAGE 3: PERMANENT POSTURAL TRANSITIONS ("stand_up", "lie_down", "sit_down")
+- PRECONDITION: Only enter Stage 3 if `active_window_fraction < 0.70` OR `min(window_delta_q4) <= 0.029`.
+- "stand_up": `dominant_signed_posture_shift >= +0.15` or `elevation_ratio_shift >= +0.25`
+  (with `mean_signed_posture_shift > 0`).
+- "lie_down": `mean_signed_posture_shift <= -0.025` AND `dominant_signed_posture_shift <= -0.055`
+  AND `active_window_fraction <= 0.67` AND `mid_to_edge_return_ratio >= 0.50`
+  AND `elevation_ratio_shift > -0.25`.
+- "sit_down": `dominant_signed_posture_shift <= -0.15` or `elevation_ratio_shift <= -0.25`
+  when not captured by `lie_down`. (NEVER classify as `sit_down` if `abs(dominant_signed_posture_shift) < 0.12`.)
+
+STAGE 4: IMPULSIVE VERTICAL ACTION ("jump")
+- Criterion: `max_burst_ratio >= 6.8` AND `active_window_fraction <= 0.65`
+  AND `subcarrier_coherence_ratio >= 0.46` AND `high_to_low_doppler_ratio >= 1.5`
+  AND `mean_signed_posture_shift > -0.025` AND `abs(dominant_signed_posture_shift) <= 0.12`.
+  (NEVER classify as "jump" if `max_burst_ratio < 6.5` or `active_window_fraction > 0.65` or `subcarrier_coherence_ratio < 0.46`.)
+
+STAGE 5: LOCALIZED LIMB GESTURE ("wave")
+- Criterion: `global_rel_motion_delta <= 0.032` AND `active_window_fraction <= 0.60`
+  AND `abs(mean_signed_posture_shift) < 0.025`
+  AND (`max_burst_ratio < 5.0` or `subcarrier_coherence_ratio <= 0.44`).
+
+STAGE 6: TWO-PHASE BEND AND RECOVER ("pick_up")
+- HARD GUARD: NEVER classify as "pick_up" if `max_burst_ratio < 5.0` OR `mean_signed_posture_shift <= -0.025`.
+- Criterion: `max_burst_ratio >= 5.2` AND `high_to_low_doppler_ratio < 1.2`
+  AND `abs(dominant_signed_posture_shift) < 0.12` AND `mean_signed_posture_shift > -0.025`.
+
+CONFIDENCE CALIBRATION RULES:
+- High (0.80 - 0.99): Cleanly satisfies one stage with wide margins.
+- Moderate (0.55 - 0.75): Near a boundary or minor overlap with `runner_up`.
+- Low (0.35 - 0.50): Metrics conflict across stages.
+
+OUTPUT FORMAT (exact JSON only, no Markdown fences):
+{
+  "activity": "walk",
+  "runner_up": "rotation",
+  "confidence": 0.75,
+  "reason": "Brief explanation referencing temporal envelope, posture shift, and spectral_cues."
+}
+\end{lstlisting}
+
+\subsubsection{User Prompt (Sample \texttt{act\_1\_1})}
+\begin{lstlisting}[style=promptblock]
+Exactly one person is present throughout this recording. Classify that person's activity using the temporal-envelope, spatial, and 3 spectral cues below. Report primary activity, runner_up, calibrated confidence, and physical reasoning.
+
+CSI-derived input:
+{"environment":"classroom","motion_summary":{"link_00":{"baseline_amplitude":7.5,"burst_ratio":2.5,"rel_motion_delta":0.0215,"rel_posture_shift":-0.068,"rel_trajectory_std":0.031},"link_01":{"baseline_amplitude":46.9,"burst_ratio":3.4,"rel_motion_delta":0.0194,"rel_posture_shift":-0.0172,"rel_trajectory_std":0.0207},"link_02":{"baseline_amplitude":69.4,"burst_ratio":2.3,"rel_motion_delta":0.0183,"rel_posture_shift":-0.0202,"rel_trajectory_std":0.0185},"link_10":{"baseline_amplitude":7.3,"burst_ratio":3.5,"rel_motion_delta":0.0163,"rel_posture_shift":-0.0666,"rel_trajectory_std":0.0304},"link_11":{"baseline_amplitude":47.0,"burst_ratio":5.4,"rel_motion_delta":0.0164,"rel_posture_shift":0.0058,"rel_trajectory_std":0.0175},"link_12":{"baseline_amplitude":69.3,"burst_ratio":3.1,"rel_motion_delta":0.0173,"rel_posture_shift":-0.0079,"rel_trajectory_std":0.0171},"link_20":{"baseline_amplitude":7.3,"burst_ratio":3.0,"rel_motion_delta":0.0181,"rel_posture_shift":-0.0781,"rel_trajectory_std":0.033},"link_21":{"baseline_amplitude":46.5,"burst_ratio":3.3,"rel_motion_delta":0.0194,"rel_posture_shift":0.0057,"rel_trajectory_std":0.0174},"link_22":{"baseline_amplitude":68.6,"burst_ratio":2.9,"rel_motion_delta":0.0172,"rel_posture_shift":0.0036,"rel_trajectory_std":0.0136}},"recording_profile":{"active_link_fraction":0.0,"active_window_fraction":0.214,"dominant_signed_posture_shift":-0.0781,"elevation_ratio_shift":-0.0478,"global_rel_motion_delta":0.0182,"global_rel_trajectory_std":0.0221,"max_burst_ratio":5.4,"mean_signed_posture_shift":-0.027,"mid_to_edge_return_ratio":0.947,"peak_duration_windows":6},"spectral_cues":{"high_to_low_doppler_ratio":7.375,"mid_freq_ratio_2_6hz":0.1767,"subcarrier_coherence_ratio":0.362},"temporal_envelope":{"dominant_link":"link_20","dominant_link_q4_rel_profile":[0.0,-0.0485,-0.0673,-0.0638],"global_q4_rel_profile":[0.0,-0.014,-0.018,-0.0159],"window_delta_q4":[0.0182,0.0124,0.0244,0.0178]},"wifi_band":"2.4"}
+
+Return the required JSON object only.
+\end{lstlisting}
+
+\subsection{Actual Output Returned by the LLM}
+Recorded in \texttt{results/wimans/activity\_only\_v5/activity\_results.jsonl} (line 1):
+\begin{itemize}
+    \item \textbf{Model:} \texttt{gemini-3.5-flash-lite}
+    \item \textbf{Ground Truth Activity:} \texttt{nothing}
+    \item \textbf{Parse Status:} \texttt{ok} (attempts: 1)
+    \item \textbf{Latency:} 2,342.9\,ms
+    \item \textbf{Token Usage:} 2,561 prompt tokens + 137 completion tokens = 2,698 total tokens
+\end{itemize}
+
+\begin{lstlisting}[language=json]
+{
+  "activity": "nothing",
+  "runner_up": "lie_down",
+  "confidence": 0.85,
+  "reason": "Stage 1 check: global_rel_motion_delta (0.0182 <= 0.022), global_rel_trajectory_std (0.0221 <= 0.025), active_window_fraction (0.214 <= 0.40), and subcarrier_coherence_ratio (0.362 <= 0.40) all satisfy the stationary criteria for 'nothing'."
+}
+\end{lstlisting}
+
+\section{Limitations and Future Work}
+\begin{enumerate}
+    \item \textbf{Postural transition confusion:} In V5, \texttt{sit\_down} (F1 = 0.1667) and \texttt{lie\_down} (F1 = 0.3333) remain frequently confused with \texttt{pick\_up} and each other because 100\,ms amplitude envelopes alone lack vertical phase/AoA disambiguation.
+    \item \textbf{Sample size and baselines:} Current V4/V5 evaluations cover a 45-sample balanced subset (5 per class). Larger-scale evaluation across all group-disjoint splits and direct benchmarking against classical/deep-learning WiMANS baselines (ST-RF, CNN, LSTM, THAT) remain future work.
+    \item \textbf{Multi-user gap:} Multi-user activity recognition (1--5 simultaneous users) has not yet been re-evaluated with V3--V5 physical representations.
+\end{enumerate}
+
+\end{document}
