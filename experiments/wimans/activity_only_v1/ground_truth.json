@@ -1,0 +1,4160 @@
+{
+  "act_1_1": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_2": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_3": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_4": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_5": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_6": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_7": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_8": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_9": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_10": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_11": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_12": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_13": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_14": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_15": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_16": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_17": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_18": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_19": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_20": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_21": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_22": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_23": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_24": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_25": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_26": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_27": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_28": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_29": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_30": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_31": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_32": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_33": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_34": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_35": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_36": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_37": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_38": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_39": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_40": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_41": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_42": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_43": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_44": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_45": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_46": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_47": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_48": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_49": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_50": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_51": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_52": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_53": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_54": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_55": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_56": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_57": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_58": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_59": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_60": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_61": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_62": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_63": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_64": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_65": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_66": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_67": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_68": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_69": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_70": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_71": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_72": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_73": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_74": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_75": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_76": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_77": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_78": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_79": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_80": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_81": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_82": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_83": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_84": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_85": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_86": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_87": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_88": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_89": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_90": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_91": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_92": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_93": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_94": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_95": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_96": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_97": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_98": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_1_99": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 1,
+    "group_id": 1
+  },
+  "act_3_1": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_2": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_3": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_4": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_5": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_6": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_7": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_8": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_9": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_10": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_11": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_12": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_13": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_14": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_15": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_16": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_17": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_18": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_19": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_20": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_21": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_22": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_23": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_24": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_25": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_26": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_27": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_28": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_29": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_30": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_31": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_32": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_33": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_34": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_35": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_36": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_37": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_38": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_39": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_40": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_41": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_42": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_43": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_44": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_45": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_46": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_47": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_48": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_49": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_50": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_51": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_52": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_53": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_54": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_55": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_56": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_57": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_58": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_59": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_60": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_61": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_62": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_63": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_64": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_65": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_66": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_67": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_68": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_69": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_70": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_71": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_72": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_73": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_74": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_75": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_76": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_77": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_78": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_79": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_80": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_81": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_82": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_83": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_84": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_85": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_86": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_87": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_88": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_89": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_90": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_91": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_92": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_93": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_94": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_95": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_96": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_97": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_98": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_3_99": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 3,
+    "group_id": 3
+  },
+  "act_24_1": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_2": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_3": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_4": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_5": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_6": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_7": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_8": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_9": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_10": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_11": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_12": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_13": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_14": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_15": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_16": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_17": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_18": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_19": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_20": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_21": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_22": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_23": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_24": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_25": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_26": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_27": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_28": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_29": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_30": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_31": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_32": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_33": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_34": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_35": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_36": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_37": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_38": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_39": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_40": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_41": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_42": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_43": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_44": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_45": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_46": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_47": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_48": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_49": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_50": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_51": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_52": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_53": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_54": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_55": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_56": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_57": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_58": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_59": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_60": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_61": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_62": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_63": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_64": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_65": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_66": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_67": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_68": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_69": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_70": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_71": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_72": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_73": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_74": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_75": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_76": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_77": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_78": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_79": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_80": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_81": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_82": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_83": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_84": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_85": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_86": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_87": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_88": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_89": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_90": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_91": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_92": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_93": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_94": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_95": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_96": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_97": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_98": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_24_99": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 24
+  },
+  "act_38_1": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_2": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_3": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_4": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_5": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_6": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_7": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_8": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_9": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_10": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_11": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_12": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_13": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_14": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_15": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_16": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_17": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_18": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_19": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_20": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_21": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_22": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_23": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_24": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_25": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_26": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_27": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_28": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_29": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_30": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_31": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_32": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_33": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_34": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_35": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_36": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_37": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_38": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_39": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_40": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_41": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_42": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_43": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_44": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_45": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_46": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_47": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_48": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_49": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_50": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_51": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_52": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_53": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_54": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_55": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_56": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_57": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_58": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_59": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_60": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_61": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_62": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_63": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_64": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_65": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_66": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_67": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_68": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_69": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_70": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_71": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_72": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_73": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_74": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_75": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_76": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_77": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_78": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_79": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_80": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_81": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_82": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_83": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_84": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_85": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_86": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_87": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_88": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_89": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_90": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_91": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_92": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_93": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_94": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_95": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_96": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_97": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_98": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_38_99": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 38
+  },
+  "act_60_1": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_2": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_3": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_4": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_5": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_6": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_7": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_8": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_9": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_10": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_11": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_12": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_13": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_14": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_15": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_16": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_17": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_18": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_19": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_20": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_21": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_22": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_23": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_24": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_25": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_26": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_27": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_28": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_29": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_30": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_31": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_32": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_33": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_34": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_35": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_36": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_37": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_38": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_39": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_40": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_41": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_42": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_43": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_44": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_45": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_46": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_47": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_48": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_49": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_50": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_51": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_52": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_53": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_54": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_55": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_56": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_57": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_58": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_59": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_60": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_61": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_62": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_63": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_64": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_65": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_66": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_67": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_68": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_69": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_70": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_71": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_72": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_73": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_74": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_75": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_76": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_77": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_78": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_79": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_80": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_81": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_82": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_83": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_84": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_85": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_86": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_87": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_88": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_89": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_90": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_91": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_92": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_93": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_94": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_95": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_96": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_97": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_98": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_60_99": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 6,
+    "group_id": 60
+  },
+  "act_77_1": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_2": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_3": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_4": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_5": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_6": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_7": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_8": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_9": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_10": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_11": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_12": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_13": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_14": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_15": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_16": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_17": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_18": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_19": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_20": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_21": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_22": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_23": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_24": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_25": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_26": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_27": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_28": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_29": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_30": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_31": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_32": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_33": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_34": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_35": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_36": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_37": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_38": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_39": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_40": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_41": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_42": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_43": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_44": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_45": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_46": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_47": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_48": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_49": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_50": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_51": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_52": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_53": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_54": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_55": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_56": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_57": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_58": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_59": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_60": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_61": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_62": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_63": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_64": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_65": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_66": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_67": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_68": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_69": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_70": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_71": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_72": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_73": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_74": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_75": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_76": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_77": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_78": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_79": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_80": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_81": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_82": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_83": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_84": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_85": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_86": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_87": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_88": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_89": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_90": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_91": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_92": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_93": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_94": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_95": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_96": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_97": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_98": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_77_99": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 5,
+    "group_id": 77
+  },
+  "act_92_1": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_2": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_3": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_4": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_5": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_6": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_7": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_8": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_9": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_10": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_11": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_12": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_13": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_14": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_15": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_16": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_17": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_18": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_19": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_20": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_21": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_22": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_23": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_24": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_25": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_26": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_27": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_28": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_29": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_30": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_31": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_32": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_33": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_34": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_35": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_36": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_37": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_38": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_39": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_40": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_41": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_42": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_43": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_44": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_45": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_46": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_47": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_48": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_49": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_50": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_51": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_52": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_53": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_54": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_55": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_56": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_57": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_58": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_59": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_60": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_61": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_62": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_63": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_64": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_65": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_66": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_67": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_68": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_69": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_70": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_71": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_72": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_73": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_74": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_75": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_76": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_77": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_78": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_79": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_80": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_81": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_82": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_83": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_84": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_85": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_86": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_87": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_88": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_89": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_90": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_91": {
+    "activity": "nothing",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_92": {
+    "activity": "walk",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_93": {
+    "activity": "rotation",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_94": {
+    "activity": "jump",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_95": {
+    "activity": "wave",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_96": {
+    "activity": "lie_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_97": {
+    "activity": "pick_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_98": {
+    "activity": "sit_down",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  },
+  "act_92_99": {
+    "activity": "stand_up",
+    "number_of_users": 1,
+    "occupied_slot": 2,
+    "group_id": 92
+  }
+}

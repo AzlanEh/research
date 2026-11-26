@@ -1,0 +1,4882 @@
+{
+  "experiment": "wimans_activity_only_v1",
+  "split_file": "data/processed/wimans/splits/group_disjoint_80_20.json",
+  "annotation_file": "data/metadata/wimans/annotation.csv",
+  "selection_rule": "test split AND number_of_users == 1; activity read from the activity column matching the sole populated location slot",
+  "expected_samples": 693,
+  "activity_labels": [
+    "nothing",
+    "walk",
+    "rotation",
+    "jump",
+    "wave",
+    "lie_down",
+    "pick_up",
+    "sit_down",
+    "stand_up"
+  ],
+  "activity_counts": {
+    "nothing": 77,
+    "walk": 77,
+    "rotation": 77,
+    "jump": 77,
+    "wave": 77,
+    "lie_down": 77,
+    "pick_up": 77,
+    "sit_down": 77,
+    "stand_up": 77
+  },
+  "records": [
+    {
+      "sample_id": "act_1_1",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_10",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_11",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_12",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_13",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_14",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_15",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_16",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_17",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_18",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_19",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_2",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_20",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_21",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_22",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_23",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_24",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_25",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_26",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_27",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_28",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_29",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_3",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_30",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_31",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_32",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_33",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_34",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_35",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_36",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_37",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_38",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_39",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_4",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_40",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_41",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_42",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_43",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_44",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_45",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_46",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_47",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_48",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_49",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_5",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_50",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_51",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_52",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_53",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_54",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_55",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_56",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_57",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_58",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_59",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_6",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_60",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_61",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_62",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_63",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_64",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_65",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_66",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_67",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_68",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_69",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_7",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_70",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_71",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_72",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_73",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_74",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_75",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_76",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_77",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_78",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_79",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_8",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_80",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_81",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_82",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_83",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_84",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_85",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_86",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_87",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_88",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_89",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_9",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_90",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_91",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_92",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_93",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_94",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_95",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_96",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_97",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_98",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_1_99",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 1
+    },
+    {
+      "sample_id": "act_24_1",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_10",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_11",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_12",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_13",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_14",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_15",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_16",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_17",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_18",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_19",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_2",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_20",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_21",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_22",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_23",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_24",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_25",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_26",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_27",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_28",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_29",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_3",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_30",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_31",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_32",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_33",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_34",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_35",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_36",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_37",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_38",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_39",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_4",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_40",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_41",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_42",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_43",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_44",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_45",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_46",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_47",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_48",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_49",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_5",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_50",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_51",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_52",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_53",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_54",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_55",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_56",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_57",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_58",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_59",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_6",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_60",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_61",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_62",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_63",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_64",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_65",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_66",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_67",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_68",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_69",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_7",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_70",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_71",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_72",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_73",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_74",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_75",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_76",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_77",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_78",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_79",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_8",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_80",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_81",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_82",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_83",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_84",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_85",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_86",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_87",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_88",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_89",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_9",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_90",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_91",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_92",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_93",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_94",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_95",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_96",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_97",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_98",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_24_99",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_38_1",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_10",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_11",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_12",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_13",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_14",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_15",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_16",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_17",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_18",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_19",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_2",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_20",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_21",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_22",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_23",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_24",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_25",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_26",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_27",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_28",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_29",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_3",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_30",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_31",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_32",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_33",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_34",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_35",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_36",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_37",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_38",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_39",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_4",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_40",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_41",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_42",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_43",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_44",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_45",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_46",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_47",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_48",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_49",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_5",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_50",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_51",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_52",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_53",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_54",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_55",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_56",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_57",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_58",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_59",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_6",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_60",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_61",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_62",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_63",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_64",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_65",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_66",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_67",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_68",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_69",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_7",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_70",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_71",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_72",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_73",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_74",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_75",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_76",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_77",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_78",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_79",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_8",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_80",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_81",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_82",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_83",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_84",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_85",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_86",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_87",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_88",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_89",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_9",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_90",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_91",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_92",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_93",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_94",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_95",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_96",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_97",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_98",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_38_99",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_3_1",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_10",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_11",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_12",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_13",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_14",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_15",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_16",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_17",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_18",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_19",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_2",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_20",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_21",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_22",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_23",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_24",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_25",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_26",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_27",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_28",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_29",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_3",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_30",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_31",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_32",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_33",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_34",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_35",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_36",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_37",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_38",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_39",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_4",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_40",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_41",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_42",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_43",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_44",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_45",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_46",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_47",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_48",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_49",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_5",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_50",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_51",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_52",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_53",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_54",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_55",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_56",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_57",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_58",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_59",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_6",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_60",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_61",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_62",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_63",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_64",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_65",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_66",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_67",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_68",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_69",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_7",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_70",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_71",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_72",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_73",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_74",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_75",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_76",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_77",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_78",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_79",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_8",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_80",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_81",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_82",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_83",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_84",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_85",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_86",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_87",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_88",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_89",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_9",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_90",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_91",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_92",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_93",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_94",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_95",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_96",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_97",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_98",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_3_99",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "occupied_slot": 3
+    },
+    {
+      "sample_id": "act_60_1",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_10",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_11",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_12",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_13",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_14",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_15",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_16",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_17",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_18",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_19",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_2",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_20",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_21",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_22",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_23",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_24",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_25",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_26",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_27",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_28",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_29",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_3",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_30",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_31",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_32",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_33",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_34",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_35",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_36",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_37",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_38",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_39",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_4",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_40",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_41",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_42",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_43",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_44",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_45",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_46",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_47",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_48",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_49",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_5",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_50",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_51",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_52",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_53",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_54",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_55",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_56",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_57",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_58",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_59",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_6",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_60",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_61",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_62",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_63",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_64",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_65",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_66",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_67",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_68",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_69",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_7",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_70",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_71",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_72",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_73",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_74",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_75",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_76",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_77",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_78",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_79",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_8",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_80",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_81",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_82",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_83",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_84",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_85",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_86",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_87",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_88",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_89",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_9",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_90",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_91",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_92",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_93",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_94",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_95",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_96",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_97",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_98",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_60_99",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "occupied_slot": 6
+    },
+    {
+      "sample_id": "act_77_1",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_10",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_11",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_12",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_13",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_14",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_15",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_16",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_17",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_18",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_19",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_2",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_20",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_21",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_22",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_23",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_24",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_25",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_26",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_27",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_28",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_29",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_3",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_30",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_31",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_32",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_33",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_34",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_35",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_36",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_37",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_38",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_39",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_4",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_40",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_41",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_42",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_43",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_44",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_45",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_46",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_47",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_48",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_49",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_5",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_50",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_51",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_52",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_53",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_54",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_55",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_56",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_57",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_58",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_59",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_6",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_60",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_61",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_62",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_63",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_64",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_65",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_66",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_67",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_68",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_69",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_7",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_70",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_71",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_72",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_73",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_74",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_75",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_76",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_77",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_78",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_79",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_8",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_80",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_81",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_82",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_83",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_84",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_85",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_86",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_87",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_88",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_89",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_9",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_90",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_91",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_92",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_93",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_94",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_95",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_96",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_97",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_98",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_77_99",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "occupied_slot": 5
+    },
+    {
+      "sample_id": "act_92_1",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_10",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_11",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_12",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_13",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_14",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_15",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_16",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_17",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_18",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_19",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_2",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_20",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_21",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_22",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_23",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_24",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_25",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_26",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_27",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_28",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_29",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_3",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_30",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_31",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_32",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_33",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_34",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_35",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_36",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_37",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_38",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_39",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_4",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_40",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_41",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_42",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_43",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_44",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_45",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_46",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_47",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_48",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_49",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_5",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_50",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_51",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_52",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_53",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_54",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_55",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_56",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_57",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_58",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_59",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_6",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_60",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_61",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_62",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_63",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_64",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_65",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_66",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_67",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_68",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_69",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_7",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_70",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_71",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_72",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_73",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_74",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_75",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_76",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_77",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_78",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_79",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_8",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_80",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_81",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_82",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_83",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_84",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_85",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_86",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_87",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_88",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_89",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_9",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_90",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_91",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_92",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_93",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_94",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_95",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_96",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_97",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_98",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    },
+    {
+      "sample_id": "act_92_99",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "occupied_slot": 2
+    }
+  ]
+}

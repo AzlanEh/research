@@ -1,0 +1,407 @@
+{
+  "protocol": "wimans_group_disjoint_20_recording_pilot",
+  "dry_run": true,
+  "network_calls": 0,
+  "selection_path": "experiments/wimans/pilot_20_selection.json",
+  "v1_feature_path": "data/processed/wimans/features_v1.jsonl",
+  "v2_feature_path": "data/processed/wimans/features_v2_pilot.jsonl",
+  "sample_count": 20,
+  "distinct_group_count": 20,
+  "passed": true,
+  "failure_count": 0,
+  "failures": [],
+  "prompt_chars": {
+    "v1": {
+      "min": 3228,
+      "max": 3277,
+      "mean": 3259.2
+    },
+    "v2": {
+      "min": 16951,
+      "max": 18087,
+      "mean": 17668.95
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "act_1_13",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "number_of_users": 1,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3228,
+        "approx_user_prompt_tokens": 807,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 16951,
+        "approx_user_prompt_tokens": 4237,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_17_42",
+      "group_id": 17,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "number_of_users": 5,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3248,
+        "approx_user_prompt_tokens": 812,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17437,
+        "approx_user_prompt_tokens": 4359,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_24_90",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "number_of_users": 1,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3260,
+        "approx_user_prompt_tokens": 815,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 18036,
+        "approx_user_prompt_tokens": 4509,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_30_98",
+      "group_id": 30,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "number_of_users": 3,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3249,
+        "approx_user_prompt_tokens": 812,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17031,
+        "approx_user_prompt_tokens": 4257,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_31_26",
+      "group_id": 31,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "number_of_users": 4,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3260,
+        "approx_user_prompt_tokens": 815,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 18050,
+        "approx_user_prompt_tokens": 4512,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_35_63",
+      "group_id": 35,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "number_of_users": 5,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3242,
+        "approx_user_prompt_tokens": 810,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17533,
+        "approx_user_prompt_tokens": 4383,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_45_52",
+      "group_id": 45,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "number_of_users": 2,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3273,
+        "approx_user_prompt_tokens": 818,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17449,
+        "approx_user_prompt_tokens": 4362,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_46_87",
+      "group_id": 46,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "number_of_users": 3,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3276,
+        "approx_user_prompt_tokens": 819,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17956,
+        "approx_user_prompt_tokens": 4489,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_62_90",
+      "group_id": 62,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "number_of_users": 2,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3240,
+        "approx_user_prompt_tokens": 810,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 18087,
+        "approx_user_prompt_tokens": 4521,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_66_20",
+      "group_id": 66,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "number_of_users": 3,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3266,
+        "approx_user_prompt_tokens": 816,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17549,
+        "approx_user_prompt_tokens": 4387,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_68_62",
+      "group_id": 68,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "number_of_users": 4,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3247,
+        "approx_user_prompt_tokens": 811,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 18011,
+        "approx_user_prompt_tokens": 4502,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_77_79",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "number_of_users": 1,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3275,
+        "approx_user_prompt_tokens": 818,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 18001,
+        "approx_user_prompt_tokens": 4500,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_79_67",
+      "group_id": 79,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "number_of_users": 2,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3271,
+        "approx_user_prompt_tokens": 817,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17013,
+        "approx_user_prompt_tokens": 4253,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_85_8",
+      "group_id": 85,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "number_of_users": 4,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3260,
+        "approx_user_prompt_tokens": 815,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17410,
+        "approx_user_prompt_tokens": 4352,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_88_11",
+      "group_id": 88,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "number_of_users": 5,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3257,
+        "approx_user_prompt_tokens": 814,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17431,
+        "approx_user_prompt_tokens": 4357,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_92_69",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "number_of_users": 1,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3277,
+        "approx_user_prompt_tokens": 819,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 18012,
+        "approx_user_prompt_tokens": 4503,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_98_6",
+      "group_id": 98,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "number_of_users": 2,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3272,
+        "approx_user_prompt_tokens": 818,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17560,
+        "approx_user_prompt_tokens": 4390,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_101_76",
+      "group_id": 101,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "number_of_users": 3,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3257,
+        "approx_user_prompt_tokens": 814,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 18030,
+        "approx_user_prompt_tokens": 4507,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_104_52",
+      "group_id": 104,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "number_of_users": 4,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3258,
+        "approx_user_prompt_tokens": 814,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17920,
+        "approx_user_prompt_tokens": 4480,
+        "problems": []
+      }
+    },
+    {
+      "sample_id": "act_203_81",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "number_of_users": 0,
+      "v1": {
+        "prompt_version": "wimans_counts_zero_shot_v1",
+        "user_prompt_chars": 3268,
+        "approx_user_prompt_tokens": 817,
+        "problems": []
+      },
+      "v2": {
+        "prompt_version": "wimans_counts_zero_shot_v2_compact",
+        "user_prompt_chars": 17912,
+        "approx_user_prompt_tokens": 4478,
+        "problems": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "nothing": "act_19_1",
+  "walk": "act_19_11",
+  "rotation": "act_19_12",
+  "jump": "act_19_13",
+  "wave": "act_19_14",
+  "lie_down": "act_19_15",
+  "pick_up": "act_19_16",
+  "sit_down": "act_19_17",
+  "stand_up": "act_19_18"
+}

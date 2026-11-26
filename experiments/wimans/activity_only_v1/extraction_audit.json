@@ -1,0 +1,15 @@
+{
+  "experiment": "wimans_single_person_pilot",
+  "stage": "v2_feature_extraction",
+  "feature_version": "wimans_recording_v2",
+  "source_manifest": "data/processed/wimans/manifest.jsonl",
+  "selection_manifest": "experiments/wimans/activity_only_v1/selection_manifest.json",
+  "output_features": "data/processed/wimans/features_v2_activity_only.jsonl",
+  "selected_records": 693,
+  "extracted_records": 693,
+  "unique_sample_ids": 693,
+  "selection_order_match": true,
+  "output_bytes": 28921167,
+  "output_sha256": "7b19ea5802a506524888b00b7ab26f85fa222003fc6e750e64cc61df07054b64",
+  "status": "PASS"
+}

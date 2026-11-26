@@ -1,0 +1,228 @@
+{
+  "protocol": "wimans_group_disjoint_20_recording_pilot",
+  "selection_seed": 42,
+  "sample_selection_seed": 43,
+  "source_split": "data/processed/wimans/splits/group_disjoint_80_20.json",
+  "source_manifest": "data/processed/wimans/manifest.jsonl",
+  "source_manifest_sha256": "b170fbb01ebf1838833983dfceacc7b9f9d990eee141a9c6715fb69e81f4a0ee",
+  "source_split_sha256": "82c7f17b0df897a56c7fe04df9fc1d25b61561dc42876a74706189df4d715c14",
+  "selection_rule": "Include all test groups with user counts other than 1; select 4 of the 7 user-count-1 groups using the fixed seed; select one sample per selected group using an independent fixed seed.",
+  "selected_group_ids": [
+    1,
+    17,
+    24,
+    30,
+    31,
+    35,
+    45,
+    46,
+    62,
+    66,
+    68,
+    77,
+    79,
+    85,
+    88,
+    92,
+    98,
+    101,
+    104,
+    203
+  ],
+  "selected_user_one_group_ids": [
+    1,
+    24,
+    77,
+    92
+  ],
+  "selected_samples": [
+    {
+      "sample_id": "act_1_13",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "number_of_users": 1
+    },
+    {
+      "sample_id": "act_17_42",
+      "group_id": 17,
+      "environment": "classroom",
+      "wifi_band": "2.4",
+      "number_of_users": 5
+    },
+    {
+      "sample_id": "act_24_90",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "number_of_users": 1
+    },
+    {
+      "sample_id": "act_30_98",
+      "group_id": 30,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "number_of_users": 3
+    },
+    {
+      "sample_id": "act_31_26",
+      "group_id": 31,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "number_of_users": 4
+    },
+    {
+      "sample_id": "act_35_63",
+      "group_id": 35,
+      "environment": "classroom",
+      "wifi_band": "5",
+      "number_of_users": 5
+    },
+    {
+      "sample_id": "act_45_52",
+      "group_id": 45,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "number_of_users": 2
+    },
+    {
+      "sample_id": "act_46_87",
+      "group_id": 46,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "number_of_users": 3
+    },
+    {
+      "sample_id": "act_62_90",
+      "group_id": 62,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "number_of_users": 2
+    },
+    {
+      "sample_id": "act_66_20",
+      "group_id": 66,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "number_of_users": 3
+    },
+    {
+      "sample_id": "act_68_62",
+      "group_id": 68,
+      "environment": "meeting_room",
+      "wifi_band": "5",
+      "number_of_users": 4
+    },
+    {
+      "sample_id": "act_77_79",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "number_of_users": 1
+    },
+    {
+      "sample_id": "act_79_67",
+      "group_id": 79,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "number_of_users": 2
+    },
+    {
+      "sample_id": "act_85_8",
+      "group_id": 85,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "number_of_users": 4
+    },
+    {
+      "sample_id": "act_88_11",
+      "group_id": 88,
+      "environment": "empty_room",
+      "wifi_band": "2.4",
+      "number_of_users": 5
+    },
+    {
+      "sample_id": "act_92_69",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "number_of_users": 1
+    },
+    {
+      "sample_id": "act_98_6",
+      "group_id": 98,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "number_of_users": 2
+    },
+    {
+      "sample_id": "act_101_76",
+      "group_id": 101,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "number_of_users": 3
+    },
+    {
+      "sample_id": "act_104_52",
+      "group_id": 104,
+      "environment": "empty_room",
+      "wifi_band": "5",
+      "number_of_users": 4
+    },
+    {
+      "sample_id": "act_203_81",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4",
+      "number_of_users": 0
+    }
+  ],
+  "summary": {
+    "sample_count": 20,
+    "distinct_group_count": 20,
+    "user_count_distribution": {
+      "0": 1,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 3
+    },
+    "environments": [
+      "classroom",
+      "empty_room",
+      "meeting_room"
+    ],
+    "wifi_bands": [
+      "2.4",
+      "5"
+    ],
+    "environment_band_combinations": [
+      {
+        "environment": "classroom",
+        "wifi_band": "2.4"
+      },
+      {
+        "environment": "classroom",
+        "wifi_band": "5"
+      },
+      {
+        "environment": "empty_room",
+        "wifi_band": "2.4"
+      },
+      {
+        "environment": "empty_room",
+        "wifi_band": "5"
+      },
+      {
+        "environment": "meeting_room",
+        "wifi_band": "2.4"
+      },
+      {
+        "environment": "meeting_room",
+        "wifi_band": "5"
+      }
+    ]
+  },
+  "caveat": "Coverage-oriented pilot, not a representative random sample. One sample is selected per group. Not suitable for statistical significance or generalization claims."
+}

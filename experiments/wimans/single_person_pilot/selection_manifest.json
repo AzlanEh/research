@@ -1,0 +1,513 @@
+{
+  "experiment": "wimans_single_person_pilot",
+  "selection_version": "single_person_selection_v1",
+  "seed": 20261123,
+  "test_split": "group_disjoint_80_20",
+  "design": {
+    "single_person_groups": [
+      1,
+      3,
+      24,
+      38,
+      60,
+      77,
+      92
+    ],
+    "samples_per_activity_group_cell": 1,
+    "single_person_samples": 63,
+    "zero_person_samples": 7,
+    "total_samples": 70
+  },
+  "records": [
+    {
+      "sample_id": "act_1_85",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_94",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_67",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_3",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_31",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_84",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_21",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_1_78",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_59",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_60",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_32",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_15",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_96",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_23",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_1_10",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_64",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_91",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_46",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_10",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_91",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_18",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_1_52",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_51",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_70",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_97",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_61",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_12",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_15",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_1_39",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_1",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_66",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_84",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_30",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_44",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_66",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_1_89",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_24",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_98",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_62",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_71",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_60",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_80",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_1_63",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_90",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_99",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_72",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_72",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_14",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_81",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_1_74",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_92",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_74",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_37",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_38",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_54",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_19",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_1_14",
+      "arm": "single_person_activity",
+      "group_id": 1,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_3_49",
+      "arm": "single_person_activity",
+      "group_id": 3,
+      "environment": "classroom",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_24_95",
+      "arm": "single_person_activity",
+      "group_id": 24,
+      "environment": "classroom",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_38_59",
+      "arm": "single_person_activity",
+      "group_id": 38,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_60_68",
+      "arm": "single_person_activity",
+      "group_id": 60,
+      "environment": "meeting_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_77_95",
+      "arm": "single_person_activity",
+      "group_id": 77,
+      "environment": "empty_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_92_4",
+      "arm": "single_person_activity",
+      "group_id": 92,
+      "environment": "empty_room",
+      "wifi_band": "5"
+    },
+    {
+      "sample_id": "act_203_40",
+      "arm": "zero_person_detection",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_203_10",
+      "arm": "zero_person_detection",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_203_59",
+      "arm": "zero_person_detection",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_203_63",
+      "arm": "zero_person_detection",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_203_83",
+      "arm": "zero_person_detection",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_203_68",
+      "arm": "zero_person_detection",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    },
+    {
+      "sample_id": "act_203_98",
+      "arm": "zero_person_detection",
+      "group_id": 203,
+      "environment": "meeting_room",
+      "wifi_band": "2.4"
+    }
+  ]
+}

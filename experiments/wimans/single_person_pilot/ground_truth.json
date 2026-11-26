@@ -1,0 +1,282 @@
+{
+  "act_1_85": {
+    "number_of_users": 1,
+    "activity": "jump"
+  },
+  "act_3_94": {
+    "number_of_users": 1,
+    "activity": "jump"
+  },
+  "act_24_67": {
+    "number_of_users": 1,
+    "activity": "jump"
+  },
+  "act_38_3": {
+    "number_of_users": 1,
+    "activity": "jump"
+  },
+  "act_60_31": {
+    "number_of_users": 1,
+    "activity": "jump"
+  },
+  "act_77_84": {
+    "number_of_users": 1,
+    "activity": "jump"
+  },
+  "act_92_21": {
+    "number_of_users": 1,
+    "activity": "jump"
+  },
+  "act_1_78": {
+    "number_of_users": 1,
+    "activity": "lie_down"
+  },
+  "act_3_59": {
+    "number_of_users": 1,
+    "activity": "lie_down"
+  },
+  "act_24_60": {
+    "number_of_users": 1,
+    "activity": "lie_down"
+  },
+  "act_38_32": {
+    "number_of_users": 1,
+    "activity": "lie_down"
+  },
+  "act_60_15": {
+    "number_of_users": 1,
+    "activity": "lie_down"
+  },
+  "act_77_96": {
+    "number_of_users": 1,
+    "activity": "lie_down"
+  },
+  "act_92_23": {
+    "number_of_users": 1,
+    "activity": "lie_down"
+  },
+  "act_1_10": {
+    "number_of_users": 1,
+    "activity": "nothing"
+  },
+  "act_3_64": {
+    "number_of_users": 1,
+    "activity": "nothing"
+  },
+  "act_24_91": {
+    "number_of_users": 1,
+    "activity": "nothing"
+  },
+  "act_38_46": {
+    "number_of_users": 1,
+    "activity": "nothing"
+  },
+  "act_60_10": {
+    "number_of_users": 1,
+    "activity": "nothing"
+  },
+  "act_77_91": {
+    "number_of_users": 1,
+    "activity": "nothing"
+  },
+  "act_92_18": {
+    "number_of_users": 1,
+    "activity": "nothing"
+  },
+  "act_1_52": {
+    "number_of_users": 1,
+    "activity": "pick_up"
+  },
+  "act_3_51": {
+    "number_of_users": 1,
+    "activity": "pick_up"
+  },
+  "act_24_70": {
+    "number_of_users": 1,
+    "activity": "pick_up"
+  },
+  "act_38_97": {
+    "number_of_users": 1,
+    "activity": "pick_up"
+  },
+  "act_60_61": {
+    "number_of_users": 1,
+    "activity": "pick_up"
+  },
+  "act_77_12": {
+    "number_of_users": 1,
+    "activity": "pick_up"
+  },
+  "act_92_15": {
+    "number_of_users": 1,
+    "activity": "pick_up"
+  },
+  "act_1_39": {
+    "number_of_users": 1,
+    "activity": "rotation"
+  },
+  "act_3_1": {
+    "number_of_users": 1,
+    "activity": "rotation"
+  },
+  "act_24_66": {
+    "number_of_users": 1,
+    "activity": "rotation"
+  },
+  "act_38_84": {
+    "number_of_users": 1,
+    "activity": "rotation"
+  },
+  "act_60_30": {
+    "number_of_users": 1,
+    "activity": "rotation"
+  },
+  "act_77_44": {
+    "number_of_users": 1,
+    "activity": "rotation"
+  },
+  "act_92_66": {
+    "number_of_users": 1,
+    "activity": "rotation"
+  },
+  "act_1_89": {
+    "number_of_users": 1,
+    "activity": "sit_down"
+  },
+  "act_3_24": {
+    "number_of_users": 1,
+    "activity": "sit_down"
+  },
+  "act_24_98": {
+    "number_of_users": 1,
+    "activity": "sit_down"
+  },
+  "act_38_62": {
+    "number_of_users": 1,
+    "activity": "sit_down"
+  },
+  "act_60_71": {
+    "number_of_users": 1,
+    "activity": "sit_down"
+  },
+  "act_77_60": {
+    "number_of_users": 1,
+    "activity": "sit_down"
+  },
+  "act_92_80": {
+    "number_of_users": 1,
+    "activity": "sit_down"
+  },
+  "act_1_63": {
+    "number_of_users": 1,
+    "activity": "stand_up"
+  },
+  "act_3_90": {
+    "number_of_users": 1,
+    "activity": "stand_up"
+  },
+  "act_24_99": {
+    "number_of_users": 1,
+    "activity": "stand_up"
+  },
+  "act_38_72": {
+    "number_of_users": 1,
+    "activity": "stand_up"
+  },
+  "act_60_72": {
+    "number_of_users": 1,
+    "activity": "stand_up"
+  },
+  "act_77_14": {
+    "number_of_users": 1,
+    "activity": "stand_up"
+  },
+  "act_92_81": {
+    "number_of_users": 1,
+    "activity": "stand_up"
+  },
+  "act_1_74": {
+    "number_of_users": 1,
+    "activity": "walk"
+  },
+  "act_3_92": {
+    "number_of_users": 1,
+    "activity": "walk"
+  },
+  "act_24_74": {
+    "number_of_users": 1,
+    "activity": "walk"
+  },
+  "act_38_37": {
+    "number_of_users": 1,
+    "activity": "walk"
+  },
+  "act_60_38": {
+    "number_of_users": 1,
+    "activity": "walk"
+  },
+  "act_77_54": {
+    "number_of_users": 1,
+    "activity": "walk"
+  },
+  "act_92_19": {
+    "number_of_users": 1,
+    "activity": "walk"
+  },
+  "act_1_14": {
+    "number_of_users": 1,
+    "activity": "wave"
+  },
+  "act_3_49": {
+    "number_of_users": 1,
+    "activity": "wave"
+  },
+  "act_24_95": {
+    "number_of_users": 1,
+    "activity": "wave"
+  },
+  "act_38_59": {
+    "number_of_users": 1,
+    "activity": "wave"
+  },
+  "act_60_68": {
+    "number_of_users": 1,
+    "activity": "wave"
+  },
+  "act_77_95": {
+    "number_of_users": 1,
+    "activity": "wave"
+  },
+  "act_92_4": {
+    "number_of_users": 1,
+    "activity": "wave"
+  },
+  "act_203_40": {
+    "number_of_users": 0,
+    "activity": null
+  },
+  "act_203_10": {
+    "number_of_users": 0,
+    "activity": null
+  },
+  "act_203_59": {
+    "number_of_users": 0,
+    "activity": null
+  },
+  "act_203_63": {
+    "number_of_users": 0,
+    "activity": null
+  },
+  "act_203_83": {
+    "number_of_users": 0,
+    "activity": null
+  },
+  "act_203_68": {
+    "number_of_users": 0,
+    "activity": null
+  },
+  "act_203_98": {
+    "number_of_users": 0,
+    "activity": null
+  }
+}
