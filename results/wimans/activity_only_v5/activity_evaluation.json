@@ -1,18 +1,18 @@
 {
   "sample_count": 45,
-  "correct_predictions": 22,
-  "accuracy": 0.4889,
-  "macro_f1": 0.4869,
+  "correct_predictions": 25,
+  "accuracy": 0.5556,
+  "macro_f1": 0.5523,
   "predictions_by_class": {
     "nothing": 6,
-    "walk": 5,
-    "stand_up": 4,
-    "sit_down": 7,
-    "rotation": 5,
-    "jump": 5,
-    "wave": 4,
-    "pick_up": 8,
-    "lie_down": 1
+    "pick_up": 14,
+    "walk": 8,
+    "rotation": 3,
+    "jump": 2,
+    "wave": 2,
+    "lie_down": 5,
+    "stand_up": 3,
+    "sit_down": 2
   },
   "per_class_metrics": {
     "nothing": {
@@ -25,67 +25,67 @@
     },
     "walk": {
       "support": 5,
-      "predicted": 5,
-      "true_positive": 3,
-      "precision": 0.6,
-      "recall": 0.6,
-      "f1": 0.6
-    },
-    "rotation": {
-      "support": 5,
-      "predicted": 5,
-      "true_positive": 2,
-      "precision": 0.4,
-      "recall": 0.4,
-      "f1": 0.4
-    },
-    "jump": {
-      "support": 5,
-      "predicted": 5,
-      "true_positive": 2,
-      "precision": 0.4,
-      "recall": 0.4,
-      "f1": 0.4
-    },
-    "wave": {
-      "support": 5,
-      "predicted": 4,
-      "true_positive": 3,
-      "precision": 0.75,
-      "recall": 0.6,
-      "f1": 0.6667
-    },
-    "lie_down": {
-      "support": 5,
-      "predicted": 1,
-      "true_positive": 1,
-      "precision": 1.0,
-      "recall": 0.2,
-      "f1": 0.3333
-    },
-    "pick_up": {
-      "support": 5,
       "predicted": 8,
       "true_positive": 3,
       "precision": 0.375,
       "recall": 0.6,
       "f1": 0.4615
     },
+    "rotation": {
+      "support": 5,
+      "predicted": 3,
+      "true_positive": 1,
+      "precision": 0.3333,
+      "recall": 0.2,
+      "f1": 0.25
+    },
+    "jump": {
+      "support": 5,
+      "predicted": 2,
+      "true_positive": 2,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714
+    },
+    "wave": {
+      "support": 5,
+      "predicted": 2,
+      "true_positive": 2,
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714
+    },
+    "lie_down": {
+      "support": 5,
+      "predicted": 5,
+      "true_positive": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "pick_up": {
+      "support": 5,
+      "predicted": 14,
+      "true_positive": 4,
+      "precision": 0.2857,
+      "recall": 0.8,
+      "f1": 0.4211
+    },
     "sit_down": {
       "support": 5,
-      "predicted": 7,
+      "predicted": 2,
       "true_positive": 1,
-      "precision": 0.1429,
+      "precision": 0.5,
       "recall": 0.2,
-      "f1": 0.1667
+      "f1": 0.2857
     },
     "stand_up": {
       "support": 5,
-      "predicted": 4,
+      "predicted": 3,
       "true_positive": 2,
-      "precision": 0.5,
+      "precision": 0.6667,
       "recall": 0.4,
-      "f1": 0.4444
+      "f1": 0.5
     }
   }
 }
