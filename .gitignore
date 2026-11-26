@@ -32,3 +32,4 @@ src/csi_reference
 
 # Generated decoder sample
 src/csi_test_100.npy
+.git-credentials
