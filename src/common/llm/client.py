@@ -44,9 +44,11 @@ import json
 import os
 import random
 import re
+import threading
 import time
 import urllib.error
 import urllib.request
+from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from typing import Any
 
@@ -73,6 +75,7 @@ MIN_REQUEST_INTERVAL = float(_env("LLM_MIN_REQUEST_INTERVAL", "5") or 5)
 
 # Module-level state to enforce minimum request interval across calls.
 _LAST_REQUEST_TIME = 0.0
+_REQUEST_LOCK = threading.Lock()
 
 
 class LLMClientError(RuntimeError):
@@ -80,12 +83,14 @@ class LLMClientError(RuntimeError):
 
 
 def _enforce_min_interval() -> None:
-    """Ensure at least MIN_REQUEST_INTERVAL seconds have passed since the last request."""
+    """Reserve a request slot, spacing request starts across threads."""
     global _LAST_REQUEST_TIME
-    elapsed = time.monotonic() - _LAST_REQUEST_TIME
-    if elapsed < MIN_REQUEST_INTERVAL:
-        sleep_for = MIN_REQUEST_INTERVAL - elapsed
-        time.sleep(sleep_for)
+    with _REQUEST_LOCK:
+        now = time.monotonic()
+        elapsed = now - _LAST_REQUEST_TIME
+        if elapsed < MIN_REQUEST_INTERVAL:
+            time.sleep(MIN_REQUEST_INTERVAL - elapsed)
+        _LAST_REQUEST_TIME = time.monotonic()
 
 
 def _server_retry_delay(headers: Any, body_text: str) -> float | None:
@@ -103,9 +108,13 @@ def _server_retry_delay(headers: Any, body_text: str) -> float | None:
                 # Might be an HTTP-date; try parsing it.
                 try:
                     retry_date = parsedate_to_datetime(retry_after)
-                    if retry_date:
-                        return max(0.0, (retry_date - time.gmtime()).total_seconds())
-                except Exception:
+                    if retry_date.tzinfo is None:
+                        retry_date = retry_date.replace(tzinfo=timezone.utc)
+                    return max(
+                        0.0,
+                        (retry_date - datetime.now(timezone.utc)).total_seconds(),
+                    )
+                except (TypeError, ValueError, OverflowError):
                     pass
 
     # Check Google's RetryInfo in the error body.
@@ -190,16 +199,20 @@ def chat_completion(
 
     last_error: str | None = None
     total_start = time.perf_counter()
+    next_retry_delay: float | None = None
 
     for attempt in range(MAX_RETRIES + 1):
         if attempt > 0:
-            # Exponential backoff before retrying.
-            backoff = min(
-                RETRY_BASE_SECONDS * (2 ** (attempt - 1)), RETRY_MAX_SECONDS
-            )
-            # Add small jitter to avoid thundering herd.
-            backoff += random.uniform(0, 1.0)
-            time.sleep(backoff)
+            if next_retry_delay is None:
+                delay = min(
+                    RETRY_BASE_SECONDS * (2 ** (attempt - 1)),
+                    RETRY_MAX_SECONDS,
+                )
+                delay += random.uniform(0, 1.0)
+            else:
+                delay = next_retry_delay
+            next_retry_delay = None
+            time.sleep(delay)
 
         # Enforce minimum request interval before each attempt.
         _enforce_min_interval()
@@ -210,7 +223,6 @@ def chat_completion(
         try:
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 raw = resp.read().decode("utf-8")
-                _LAST_REQUEST_TIME = time.monotonic()
         except urllib.error.HTTPError as exc:  # noqa: BLE001
             body_text = exc.read().decode("utf-8", errors="replace")
             latency_ms = (time.perf_counter() - attempt_start) * 1000
@@ -219,29 +231,37 @@ def chat_completion(
             retryable = exc.code == 429 or 500 <= exc.code < 600
             if retryable and attempt < MAX_RETRIES:
                 server_delay = _server_retry_delay(
-                    exc.headers if hasattr(exc, "headers") else None, body_text
+                    exc.headers if hasattr(exc, "headers") else None,
+                    body_text,
                 )
-                delay = server_delay if server_delay is not None else None
+                backoff = min(
+                    RETRY_BASE_SECONDS * (2 ** attempt),
+                    RETRY_MAX_SECONDS,
+                )
+                backoff += random.uniform(0, 1.0)
+                # Use the longer delay, not the sum.
+                next_retry_delay = max(
+                    backoff,
+                    server_delay if server_delay is not None else 0.0,
+                )
                 last_error = (
-                    f"HTTP {exc.code} (retryable, attempt {attempt + 1}/{MAX_RETRIES + 1}): "
+                    f"HTTP {exc.code} (retryable, "
+                    f"attempt {attempt + 1}/{MAX_RETRIES + 1}): "
                     f"{body_text[:200]}"
                 )
-                # If we have a server-suggested delay, sleep before the next attempt
-                # (the loop's backoff will also apply on the next iteration).
-                if delay is not None:
-                    time.sleep(delay)
                 continue
 
             # Non-retryable or out of retries.
             raise LLMClientError(
                 f"LLM API HTTP {exc.code} for {url}: {body_text}"
             ) from exc
-        except urllib.error.URLError as exc:  # noqa: BLE001
+        except (urllib.error.URLError, TimeoutError) as exc:  # noqa: BLE001
             latency_ms = (time.perf_counter() - attempt_start) * 1000
             if attempt < MAX_RETRIES:
                 last_error = (
                     f"Connection error (retryable, attempt {attempt + 1}/{MAX_RETRIES + 1}): {exc}"
                 )
+                next_retry_delay = None
                 continue
             raise LLMClientError(
                 f"LLM API connection error for {url}: {exc}"

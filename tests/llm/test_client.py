@@ -3,10 +3,10 @@
 All HTTP traffic is mocked. Module-level configuration is patched directly
 because ``common/llm/client.py`` reads the environment at import time.
 
-Known defects are pinned as current behaviour:
-  - HTTP-date ``Retry-After`` values are ignored.
-  - ``chat_completion`` assigns ``_LAST_REQUEST_TIME`` without ``global``,
-    so the module-level timestamp is never updated.
+Pacing behavior covered here:
+  - ``_LAST_REQUEST_TIME`` advances at request start, including failed attempts.
+  - The configured minimum interval is enforced between request starts.
+  - HTTP-date ``Retry-After`` values are parsed as timezone-aware datetimes.
 """
 
 from __future__ import annotations
@@ -15,6 +15,8 @@ import io
 import json
 import unittest
 import urllib.error
+from datetime import datetime, timedelta, timezone
+from email.utils import format_datetime
 from unittest import mock
 
 from common.llm import client
@@ -218,9 +220,8 @@ class SuccessParsingTests(ClientTestCase):
         self.assertIn("non-JSON", str(ctx.exception))
         self.assertEqual(urlopen.call_count, 1)
 
-    def test_last_request_time_is_not_updated(self) -> None:
-        # Known defect: chat_completion() assigns _LAST_REQUEST_TIME without a
-        # global declaration, so the module-level value stays at its old value.
+    @mock.patch.object(client.time, "monotonic", side_effect=[100.0, 100.0])
+    def test_last_request_time_is_updated(self, _monotonic) -> None:
         with mock.patch.object(
             client.urllib.request,
             "urlopen",
@@ -228,7 +229,44 @@ class SuccessParsingTests(ClientTestCase):
         ):
             self.call()
 
-        self.assertEqual(client._LAST_REQUEST_TIME, 0.0)
+        self.assertEqual(client._LAST_REQUEST_TIME, 100.0)
+
+    @mock.patch.object(client.time, "monotonic", side_effect=[50.0, 50.0])
+    def test_failed_request_updates_last_request_time(self, _monotonic) -> None:
+        error = self.http_error(400, b'{"error": "bad request"}')
+
+        with mock.patch.object(
+            client.urllib.request, "urlopen", side_effect=[error]
+        ):
+            with self.assertRaises(client.LLMClientError):
+                self.call()
+
+        self.assertEqual(client._LAST_REQUEST_TIME, 50.0)
+
+    @mock.patch.object(
+        client.time,
+        "monotonic",
+        side_effect=[100.0, 100.0, 102.0, 103.0],
+    )
+    def test_second_request_waits_for_remaining_interval(
+        self, _monotonic
+    ) -> None:
+        client.MIN_REQUEST_INTERVAL = 5.0
+
+        with mock.patch.object(
+            client.urllib.request,
+            "urlopen",
+            side_effect=[
+                self.response(completion_payload()),
+                self.response(completion_payload()),
+            ],
+        ) as urlopen:
+            self.call()
+            self.call()
+
+        self.assertEqual(urlopen.call_count, 2)
+        self.sleep.assert_called_once_with(3.0)
+        self.assertEqual(client._LAST_REQUEST_TIME, 103.0)
 
 
 class RetryTests(ClientTestCase):
@@ -245,7 +283,10 @@ class RetryTests(ClientTestCase):
         self.assertEqual(urlopen.call_count, 1)
         self.sleep.assert_not_called()
 
-    def test_429_is_retried_and_success_reports_prior_error(self) -> None:
+    @mock.patch.object(client.random, "uniform", return_value=0.0)
+    def test_429_is_retried_and_success_reports_prior_error(
+        self, _uniform
+    ) -> None:
         client.MAX_RETRIES = 1
         error = self.http_error(429, headers={"Retry-After": "2"})
 
@@ -264,7 +305,8 @@ class RetryTests(ClientTestCase):
         sleep_values = [call.args[0] for call in self.sleep.call_args_list]
         self.assertIn(2.0, sleep_values)
 
-    def test_500_retries_exhausted_raises(self) -> None:
+    @mock.patch.object(client.random, "uniform", return_value=0.0)
+    def test_500_retries_exhausted_raises(self, _uniform) -> None:
         client.MAX_RETRIES = 1
 
         with mock.patch.object(
@@ -278,7 +320,10 @@ class RetryTests(ClientTestCase):
         self.assertIn("HTTP 500", str(ctx.exception))
         self.assertEqual(urlopen.call_count, 2)
 
-    def test_connection_error_is_retried_and_success_reports_prior_error(self) -> None:
+    @mock.patch.object(client.random, "uniform", return_value=0.0)
+    def test_connection_error_is_retried_and_success_reports_prior_error(
+        self, _uniform
+    ) -> None:
         client.MAX_RETRIES = 1
 
         with mock.patch.object(
@@ -295,7 +340,8 @@ class RetryTests(ClientTestCase):
         self.assertIn("Connection error", result["error"])
         self.assertEqual(urlopen.call_count, 2)
 
-    def test_connection_error_exhausted_raises(self) -> None:
+    @mock.patch.object(client.random, "uniform", return_value=0.0)
+    def test_connection_error_exhausted_raises(self, _uniform) -> None:
         client.MAX_RETRIES = 1
 
         with mock.patch.object(
@@ -337,16 +383,17 @@ class ServerRetryDelayTests(ClientTestCase):
             2.5,
         )
 
-    def test_http_date_retry_after_is_ignored(self) -> None:
-        # Known defect: parsedate_to_datetime() returns an aware datetime, but
-        # the code subtracts time.gmtime() (a struct_time), raising TypeError,
-        # which is swallowed. The result is None.
-        self.assertIsNone(
-            client._server_retry_delay(
-                {"Retry-After": "Wed, 21 Oct 2015 07:28:00 GMT"},
-                "",
-            )
+    def test_http_date_retry_after_is_parsed(self) -> None:
+        future = datetime.now(timezone.utc) + timedelta(seconds=30)
+        header = format_datetime(future, usegmt=True)
+        delay = client._server_retry_delay(
+            {"Retry-After": header},
+            "",
         )
+
+        self.assertIsNotNone(delay)
+        self.assertGreater(delay, 0)
+        self.assertLessEqual(delay, 30)
 
     def test_invalid_retry_after_is_ignored(self) -> None:
         self.assertIsNone(
