@@ -1,0 +1,65 @@
+{
+  "experiment": "wimans_prompt_v3_smoke",
+  "sample_id": "act_17_42",
+  "network_calls_requested": 2,
+  "results": [
+    {
+      "sample_id": "act_17_42",
+      "feature_version": "v1",
+      "prompt_version": "wimans_counts_zero_shot_v3_v1",
+      "payload_unchanged": true,
+      "parse_status": "ok",
+      "predicted_activity_counts": {
+        "nothing": 0,
+        "walk": 1,
+        "rotation": 0,
+        "jump": 0,
+        "wave": 0,
+        "lie_down": 0,
+        "pick_up": 0,
+        "sit_down": 0,
+        "stand_up": 0
+      },
+      "predicted_people": 1,
+      "confidence": 0.6,
+      "reason": "The signal standard deviations (~27-30) and window mean variability across multiple links indicate moderate dynamic activity consistent with walking by a single person in a classroom setting.",
+      "model": "gemini-3.5-flash-lite",
+      "latency_ms": 1534.17,
+      "token_usage": {
+        "completion_tokens": 145,
+        "prompt_tokens": 2833,
+        "total_tokens": 2978
+      },
+      "error": null
+    },
+    {
+      "sample_id": "act_17_42",
+      "feature_version": "v2",
+      "prompt_version": "wimans_counts_zero_shot_v3_v2",
+      "payload_unchanged": true,
+      "parse_status": "ok",
+      "predicted_activity_counts": {
+        "nothing": 1,
+        "walk": 0,
+        "rotation": 0,
+        "jump": 0,
+        "wave": 0,
+        "lie_down": 0,
+        "pick_up": 0,
+        "sit_down": 0,
+        "stand_up": 0
+      },
+      "predicted_people": 1,
+      "confidence": 0.4,
+      "reason": "The temporal sequence shows mostly low variance and static signal statistics with minor fluctuations, suggesting a stationary presence in the classroom environment rather than active movement.",
+      "model": "gemini-3.5-flash-lite",
+      "latency_ms": 5077.39,
+      "token_usage": {
+        "completion_tokens": 139,
+        "prompt_tokens": 17252,
+        "total_tokens": 17391
+      },
+      "error": null
+    }
+  ]
+}

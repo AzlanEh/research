@@ -1,0 +1,315 @@
+{
+  "experiment": "wimans_single_person_pilot",
+  "stage": "paired_evaluation",
+  "selection_manifest": "experiments/wimans/single_person_pilot/selection_manifest.json",
+  "ground_truth_file": "experiments/wimans/single_person_pilot/ground_truth.json",
+  "feature_files": {
+    "v1": "data/processed/wimans/features_v1.jsonl",
+    "v2": "data/processed/wimans/features_v2_single_person.jsonl"
+  },
+  "settings": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "samples": 70,
+    "feature_versions": [
+      "v1",
+      "v2"
+    ],
+    "total_requests": 140
+  },
+  "coverage": {
+    "v1": {
+      "total": 70,
+      "ok": 70
+    },
+    "v2": {
+      "total": 70,
+      "ok": 70
+    }
+  },
+  "presence_detection_by_version": {
+    "v1": {
+      "feature_version": "v1",
+      "total_samples": 70,
+      "true_positives": 57,
+      "true_negatives": 0,
+      "false_positives": 7,
+      "false_negatives": 6,
+      "accuracy": 0.8143,
+      "precision": 0.8906,
+      "recall": 0.9048,
+      "specificity": 0.0,
+      "confusion_matrix": {
+        "actual_present_predicted_present": 57,
+        "actual_present_predicted_absent": 6,
+        "actual_absent_predicted_present": 7,
+        "actual_absent_predicted_absent": 0
+      }
+    },
+    "v2": {
+      "feature_version": "v2",
+      "total_samples": 70,
+      "true_positives": 53,
+      "true_negatives": 0,
+      "false_positives": 7,
+      "false_negatives": 10,
+      "accuracy": 0.7571,
+      "precision": 0.8833,
+      "recall": 0.8413,
+      "specificity": 0.0,
+      "confusion_matrix": {
+        "actual_present_predicted_present": 53,
+        "actual_present_predicted_absent": 10,
+        "actual_absent_predicted_present": 7,
+        "actual_absent_predicted_absent": 0
+      }
+    }
+  },
+  "activity_classification_by_version": {
+    "v1": {
+      "feature_version": "v1",
+      "total_single_person_samples": 63,
+      "correct_activity_predictions": 6,
+      "accuracy_all_samples": 0.0952,
+      "presence_recall_on_single_person": 0.9048,
+      "activity_accuracy_given_presence_detected": 0.1053,
+      "macro_f1": 0.023,
+      "per_class": {
+        "nothing": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "walk": {
+          "precision": 0.1176,
+          "recall": 0.8571,
+          "f1": 0.2069,
+          "support": 7
+        },
+        "rotation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "jump": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "wave": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "lie_down": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "pick_up": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "sit_down": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "stand_up": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        }
+      },
+      "confusion_matrix": {
+        "jump": {
+          "walk": 4,
+          "nothing": 1,
+          "__no_prediction__": 2
+        },
+        "lie_down": {
+          "walk": 6,
+          "__no_prediction__": 1
+        },
+        "nothing": {
+          "walk": 6,
+          "__no_prediction__": 1
+        },
+        "pick_up": {
+          "walk": 6,
+          "nothing": 1
+        },
+        "rotation": {
+          "walk": 6,
+          "nothing": 1
+        },
+        "sit_down": {
+          "walk": 6,
+          "__no_prediction__": 1
+        },
+        "stand_up": {
+          "walk": 7
+        },
+        "walk": {
+          "walk": 6,
+          "nothing": 1
+        },
+        "wave": {
+          "walk": 4,
+          "nothing": 2,
+          "__no_prediction__": 1
+        }
+      }
+    },
+    "v2": {
+      "feature_version": "v2",
+      "total_single_person_samples": 63,
+      "correct_activity_predictions": 7,
+      "accuracy_all_samples": 0.1111,
+      "presence_recall_on_single_person": 0.8413,
+      "activity_accuracy_given_presence_detected": 0.1321,
+      "macro_f1": 0.0442,
+      "per_class": {
+        "nothing": {
+          "precision": 0.1429,
+          "recall": 0.7143,
+          "f1": 0.2381,
+          "support": 7
+        },
+        "walk": {
+          "precision": 0.1111,
+          "recall": 0.2857,
+          "f1": 0.16,
+          "support": 7
+        },
+        "rotation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "jump": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "wave": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "lie_down": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "pick_up": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "sit_down": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "stand_up": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        }
+      },
+      "confusion_matrix": {
+        "jump": {
+          "nothing": 4,
+          "walk": 1,
+          "__no_prediction__": 2
+        },
+        "lie_down": {
+          "walk": 2,
+          "nothing": 5
+        },
+        "nothing": {
+          "nothing": 5,
+          "__no_prediction__": 1,
+          "walk": 1
+        },
+        "pick_up": {
+          "walk": 4,
+          "nothing": 3
+        },
+        "rotation": {
+          "nothing": 4,
+          "walk": 2,
+          "__no_prediction__": 1
+        },
+        "sit_down": {
+          "nothing": 4,
+          "walk": 1,
+          "__no_prediction__": 2
+        },
+        "stand_up": {
+          "walk": 4,
+          "nothing": 2,
+          "__no_prediction__": 1
+        },
+        "walk": {
+          "nothing": 4,
+          "walk": 2,
+          "__no_prediction__": 1
+        },
+        "wave": {
+          "nothing": 4,
+          "__no_prediction__": 2,
+          "walk": 1
+        }
+      }
+    }
+  },
+  "paired_comparison": {
+    "presence": {
+      "v1_better": 6,
+      "v2_better": 2,
+      "both_correct": 51,
+      "both_wrong": 11
+    },
+    "activity": {
+      "v1_better": 4,
+      "v2_better": 5,
+      "both_correct": 2,
+      "both_wrong": 52
+    }
+  },
+  "cost": {
+    "total_input_tokens_by_version": {
+      "v1": 186480,
+      "v2": 1206703
+    },
+    "total_output_tokens_by_version": {
+      "v1": 4601,
+      "v2": 4575
+    },
+    "total_latency_ms_by_version": {
+      "v1": 333675.55,
+      "v2": 362762.5
+    }
+  },
+  "limitation": "All seven zero-person samples come from group 203 (meeting_room, 2.4 GHz). Presence results are preliminary and cannot establish cross-environment or cross-band generalization.",
+  "note": "A technically successful response (parse_status == ok) is not a correct prediction. Accuracy is measured against ground truth joined only at evaluation time. Metrics are computed per feature version, not pooled, so v1 and v2 can be compared directly."
+}

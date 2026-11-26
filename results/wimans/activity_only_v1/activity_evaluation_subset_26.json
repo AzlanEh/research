@@ -1,0 +1,193 @@
+{
+  "experiment": "activity_only_v1",
+  "evaluation_scope": "successfully_parsed_saved_predictions_only",
+  "total_saved_predictions": 26,
+  "evaluated_predictions": 26,
+  "excluded_predictions": 0,
+  "accuracy": 0.15384615384615385,
+  "macro_f1": 0.030651340996168588,
+  "prediction_distribution": {
+    "walk": 25,
+    "nothing": 1
+  },
+  "ground_truth_distribution": {
+    "nothing": 4,
+    "walk": 4,
+    "rotation": 4,
+    "jump": 3,
+    "wave": 3,
+    "lie_down": 2,
+    "pick_up": 2,
+    "sit_down": 2,
+    "stand_up": 2
+  },
+  "per_class": {
+    "nothing": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 4
+    },
+    "walk": {
+      "precision": 0.16,
+      "recall": 1.0,
+      "f1": 0.2758620689655173,
+      "support": 4
+    },
+    "rotation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 4
+    },
+    "jump": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "wave": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "lie_down": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    "pick_up": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    "sit_down": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    "stand_up": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    }
+  },
+  "confusion_matrix": {
+    "nothing": {
+      "nothing": 0,
+      "walk": 4,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    },
+    "walk": {
+      "nothing": 0,
+      "walk": 4,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    },
+    "rotation": {
+      "nothing": 0,
+      "walk": 4,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    },
+    "jump": {
+      "nothing": 0,
+      "walk": 3,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    },
+    "wave": {
+      "nothing": 0,
+      "walk": 3,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    },
+    "lie_down": {
+      "nothing": 0,
+      "walk": 2,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    },
+    "pick_up": {
+      "nothing": 0,
+      "walk": 2,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    },
+    "sit_down": {
+      "nothing": 1,
+      "walk": 1,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    },
+    "stand_up": {
+      "nothing": 0,
+      "walk": 2,
+      "rotation": 0,
+      "jump": 0,
+      "wave": 0,
+      "lie_down": 0,
+      "pick_up": 0,
+      "sit_down": 0,
+      "stand_up": 0
+    }
+  },
+  "labels": [
+    "nothing",
+    "walk",
+    "rotation",
+    "jump",
+    "wave",
+    "lie_down",
+    "pick_up",
+    "sit_down",
+    "stand_up"
+  ],
+  "note": "This is an evaluation of the saved prediction subset only. It is not a complete 693-record benchmark evaluation."
+}

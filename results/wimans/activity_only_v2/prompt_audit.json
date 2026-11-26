@@ -1,0 +1,15 @@
+{
+  "input_file": "data/processed/wimans/features_v2_activity_only.jsonl",
+  "total_records": 693,
+  "unique_sample_ids": 693,
+  "duplicate_sample_ids": [],
+  "missing_sample_ids": 0,
+  "total_temporal_windows": 20267,
+  "total_partial_windows": 690,
+  "total_null_temporal_deltas": 45,
+  "records_with_null_temporal_deltas": 5,
+  "prompt_failures": [],
+  "passed": true,
+  "expected_records": 693,
+  "record_count_matches_expected": true
+}

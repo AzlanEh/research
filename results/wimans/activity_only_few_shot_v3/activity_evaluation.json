@@ -1,0 +1,91 @@
+{
+  "sample_count": 18,
+  "correct_predictions": 5,
+  "accuracy": 0.2778,
+  "macro_f1": 0.237,
+  "predictions_by_class": {
+    "nothing": 2,
+    "walk": 3,
+    "stand_up": 3,
+    "lie_down": 2,
+    "pick_up": 4,
+    "rotation": 1,
+    "jump": 2,
+    "sit_down": 1,
+    "wave": 0
+  },
+  "per_class_metrics": {
+    "nothing": {
+      "support": 2,
+      "predicted": 2,
+      "true_positive": 2,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "walk": {
+      "support": 2,
+      "predicted": 3,
+      "true_positive": 1,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "f1": 0.4
+    },
+    "rotation": {
+      "support": 2,
+      "predicted": 1,
+      "true_positive": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "jump": {
+      "support": 2,
+      "predicted": 2,
+      "true_positive": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "wave": {
+      "support": 2,
+      "predicted": 0,
+      "true_positive": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "lie_down": {
+      "support": 2,
+      "predicted": 2,
+      "true_positive": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "pick_up": {
+      "support": 2,
+      "predicted": 4,
+      "true_positive": 1,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333
+    },
+    "sit_down": {
+      "support": 2,
+      "predicted": 1,
+      "true_positive": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "stand_up": {
+      "support": 2,
+      "predicted": 3,
+      "true_positive": 1,
+      "precision": 0.3333,
+      "recall": 0.5,
+      "f1": 0.4
+    }
+  }
+}

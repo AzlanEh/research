@@ -1,0 +1,65 @@
+{
+  "experiment": "wimans_single_person_smoke",
+  "selection_manifest": "experiments/wimans/single_person_pilot/selection_manifest.json",
+  "ground_truth_file": "experiments/wimans/single_person_pilot/ground_truth.json",
+  "feature_files": {
+    "v1": "data/processed/wimans/features_v1.jsonl",
+    "v2": "data/processed/wimans/features_v2_single_person.jsonl"
+  },
+  "sample_ids": [
+    "act_1_85",
+    "act_203_40"
+  ],
+  "requested": 4,
+  "completed": 4,
+  "parsed_ok": 4,
+  "client_errors": 0,
+  "parse_failures": 0,
+  "settings": {
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "model": "gemini-3.5-flash-lite",
+    "api_key_configured": true
+  },
+  "technical_checks": {
+    "four_requests_completed": true,
+    "four_responses_parsed": true,
+    "present_is_boolean": true,
+    "activity_consistent_with_presence": true,
+    "both_versions_valid_for_both_samples": true,
+    "identical_sample_ids_across_versions": true,
+    "consistent_model_across_requests": true
+  },
+  "technical_success": true,
+  "accuracy_observations": [
+    {
+      "sample_id": "act_1_85",
+      "feature_version": "v1",
+      "predicted_activity": "walk",
+      "expected_activity": "jump",
+      "match": false
+    },
+    {
+      "sample_id": "act_1_85",
+      "feature_version": "v2",
+      "predicted_activity": "nothing",
+      "expected_activity": "jump",
+      "match": false
+    },
+    {
+      "sample_id": "act_203_40",
+      "feature_version": "v1",
+      "predicted_present": true,
+      "expected_present": false,
+      "match": false
+    },
+    {
+      "sample_id": "act_203_40",
+      "feature_version": "v2",
+      "predicted_present": true,
+      "expected_present": false,
+      "match": false
+    }
+  ],
+  "accuracy_note": "Descriptive only. Four responses cannot establish recognition accuracy; these fields do not affect technical success."
+}
